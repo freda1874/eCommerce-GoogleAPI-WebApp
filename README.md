@@ -2,9 +2,10 @@
 ## Client
 
 ## Authors
-Leo-Gao gao00123@algonquinlive.com
-Rui-Wang wang0901@algonquinlive.com
-Sadegh-Houshyar hous0132@algonquinlive.com
+Leo-Gao gao00123@algonquinlive.com <br/>
+Rui-Wang wang0901@algonquinlive.com <br/>
+Sadegh-Houshyar hous0132@algonquinlive.com <br/>
+Kyle Purdy purd0057@algonquinlive.com <br/>
 
 ## Description
 
