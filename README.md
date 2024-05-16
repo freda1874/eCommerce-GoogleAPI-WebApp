@@ -1,6 +1,6 @@
 # CST8334 Software Development Project
 ## Client
-Nadia
+Nadia, 
 Hello Appy.Yo
 hello@appyyo.com
 
