@@ -1,5 +1,7 @@
 # CST8334 Software Development Project
 ## Client
+Hello Appy.Yo
+hello@appyyo.com
 
 ## Authors
 Leo-Gao gao00123@algonquinlive.com <br/>
