@@ -10,6 +10,7 @@ Rui-Wang wang0901@algonquinlive.com <br/>
 Sadegh-Houshyar hous0132@algonquinlive.com <br/>
 Kyle Purdy purd0057@algonquinlive.com <br/>
 Freda Luo luo00064@algonquinlive.com <br/>
+Nikita Senkov senk0014@algonquinlive.com <br/>
 
 ## Description
 
