@@ -1,0 +1,248 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+@font-face {
+  font-family: 'yuhh';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+/* layout */
+:root {
+  --primary: #2ab806;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "yuhh";
+}
+header {
+  height: 20%; 
+}
+header .container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_left {
+  width: 50%;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_right {
+  width: 40%;
+  display: flex; 
+  flex-direction: row-reverse; 
+  align-items: center;
+  gap: 30px;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 100vw;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr; /* A single column for the content */
+  grid-template-rows: auto auto 1fr; /* Rows for search bar, map, and items */
+  grid-template-areas:
+    "search"
+    "map"
+    "items";
+}
+.item-details {
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.item-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.item-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.item-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location_enabler{
+  grid-column-start: 4;
+  grid-column-end: end;
+  grid-row-start: row1-start;
+  grid-row-end: 2;
+}
+
+.sorter{
+  grid-column-start: first;
+  grid-column-end: line2;
+  grid-row-start: row1-start;
+  grid-row-end: 1;
+}
+
+.search-page{
+  display: grid;
+  grid-template-columns: [first] 15% [line2] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 60px [row1-end] auto [last-line];
+}
+.store-boxes {
+  grid-column-start: span 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+  height: 20%;
+  display: flex;
+  flex-direction: row; 
+}
+.items-table{
+  grid-column-start: 2;
+  grid-column-end: col4-start;
+  grid-row-start: row1-end;
+}
+.blog-para{
+  grid-column-start: 2;
+  grid-column-end: line3;
+  grid-row-start: 1;
+}
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.item-clear {
+  flex-basis: 100%;
+  height: 0;
+  clear: both;
+}
+.image-container {
+  width: 100%;
+  max-width: 300px; 
+  background-color:rgb(255, 255, 255);
+}
+.item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+}
+.item-name, .item-price {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* .search-form{
+  grid-column-start: 2;
+  grid-column-end: line3;
+  grid-row-start: row1-start;
+  grid-row-end: 2;
+  height:20%;
+}
+.search-container {
+  display: flex;
+  gap: 10px; 
+  align-items: center;
+  vertical-align: middle;
+}
+.search input{
+  width: 20%;
+  flex: 1;
+  height: 40px;
+  vertical-align: middle;
+}
+.search button {
+  width: 15%;
+  height: 40px;
+  vertical-align: middle;
+} */
+.logo-image {
+  max-height: 70px;
+  width: auto;
+  
+}
+.search-bar {
+  grid-area: search;
+}
+
+.map {
+  grid-area: map;
+}
+
+.items-table {
+  grid-area: items;
+}
+/* .map {
+  width: 100%; 
+  margin: 0 auto; 
+  height: 400px; 
+  grid-template-columns: [first] 15% [line2] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 60px [row1-end] auto [last-line];
+
+} */
