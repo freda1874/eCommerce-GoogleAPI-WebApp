@@ -232,7 +232,7 @@ const NavLink = ({ href, label }) => (
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/shop", label: "Shop" },
-  { to: "/about", label: "About Us" },
+  { to: "/aboutus", label: "About Us" },
   { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact Us" },
 ];
