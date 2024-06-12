@@ -151,9 +151,12 @@ const Navbar = () => {
           ))}
         </nav>
         <div style={rightContainerStyle}>
-          <NavLink href="/cart" label="Cart" />
+          {/* <NavLink href="/cart" label="Cart" />
           <NavLink href="/wishlist" label={<FaRegHeart />} />
-          <NavLink href="/profile" label={<RxPerson />} />
+          <NavLink href="/profile" label={<RxPerson />} />   */}
+          <Link to="/cart" style={linkStyle}>Cart</Link>
+          <Link to="/wishlist" style={linkStyle}><FaRegHeart /></Link>
+          <Link to="/profile" style={linkStyle}><RxPerson /></Link>
           <div style={searchContainerStyle}>
             <input
               type="text"
@@ -223,11 +226,11 @@ const searchIconStyle = {
   marginTop: "15px"
 };
 
-const NavLink = ({ href, label }) => (
-  <a href={href} style={linkStyle}>
-    {label}
-  </a>
-);
+// const NavLink = ({ href, label }) => (
+//   <a href={href} style={linkStyle}>
+//     {label}
+//   </a>
+// );
 
 const navLinks = [
   { to: "/", label: "Home" },
