@@ -12,7 +12,7 @@ const SearchBar = () => {
     navigate("/search", { state: { search: search, rad: radius } }); //sends user to search page innstead of regular page
   };
   return (
-    <div style={{ padding: '20px' }}> {/* Added padding for some space around the content */}
+    <div style={{ display: 'flex', justifyContent: 'left', padding: '20px' }}>
       <div>
         <div className="row">
           <form
@@ -21,8 +21,7 @@ const SearchBar = () => {
               searchItems(e);
             }}
           >
-            <div className="sear form-control" style={{ display: "flex", justifyContent: "center", alignContent: "start" }}>
-              <input
+            <div className="search form-control" style={{ display: "flex", justifyContent: "center", alignContent: "start" }}>              <input
                 type="text"
                 onChange={(e) => setSearch(e.target.value)}
                 value={search}

@@ -1,6 +1,6 @@
-import {useEffect, useState, useCallback} from 'react'
+import { useEffect, useState, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
-import SearchBar from '../components/SearchBar.js'
+import SearchBar from '../components/SearchBar.js';
 import ItemDetails from '../components/itemDetails';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -20,41 +20,48 @@ const Search = () => {
         }
     }, [state.search, state.rad]);
 
-    const debugCalls = async (radius) => {
+    const debugCalls = async () => {
         console.log("Search.js - Called from interval");
         fetchItems();
     }
-
-    setInterval(debugCalls, 300000);
 
     useEffect(() => {
         console.log("Search.js - Called from useEffect");
         const interval = setInterval(fetchItems, 300000);
         fetchItems();
-    
+
         return () => clearInterval(interval);
-    }, [fetchItems, state]); 
+    }, [fetchItems, state]);
 
     return (
-    <div className="search-page">
-    <SearchBar />
-    <div className="items-table">
-    <table>
-    <tbody>
-        {items &&
-        items.reduce((rows, item, index) => {
-            rows[rows.length - 1].push(
-            <tr key={item.id}>
-            <ItemDetails itemModel={item} />
-            </tr>
-            );
-            return rows;
-        }, [])}
-    </tbody>
-    </table>
-    </div>
-    </div>
-    )  
+        <div className="search-page" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <SearchBar />
+            <div className="items-table" style={{ width: '70%', marginTop: '20px' }}>
+                <table style={{ width: '100%' }}>
+                    <tbody>
+                        {items &&
+                            items.reduce((rows, item, index) => {
+                                if (index % 3 === 0) {
+                                    rows.push([]);
+                                }
+                                rows[rows.length - 1].push(
+                                    <td key={item.id} style={{ width: '33%' }}>
+                                        <ItemDetails itemModel={item} />
+                                    </td>
+                                );
+                                return rows;
+                            }, []).map((row, index) => (
+                                <tr key={index}>
+                                    {row}
+                                </tr>
+                            ))
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    );
+    
 }
-//
-export default Search
+
+export default Search;
