@@ -39,9 +39,9 @@
 // app.get('/google-maps-api', async (req, res) => {
 //   try {
 //     const apiKey = process.env.GOOGLE_API_KEY;
-    
+
 //     const { query, latitude, longitude, radius } = req.query;
-    
+
 //     console.log("*** SERVER REQUEST[/google-maps-api] *** :query, lat, long, radius" + query, latitude, longitude, radius);
 
 //     const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(
@@ -125,7 +125,7 @@ const places = require('./controllers/places.js');
 
 
 //trying to fix puppeteer
-const {join} = require('path');
+const { join } = require('path');
 const { getGeoItems } = require('./controllers/itemController.js');
 
 /**
@@ -147,10 +147,11 @@ app.use(cors());
 // middleware
 app.use(express.json())
 
-app.use((req, res, next) =>{
-    console.log(req.path, req.method)
-    next()
+app.use((req, res, next) => {
+  console.log(req.path, req.method)
+  next()
 })
+
 app.get('/google-maps-api', async (req, res) => {
   try {
     const apiKey = 'AIzaSyBxONdCYn7fhUT-0aifzRBWkHZld9NRbDM';
@@ -177,19 +178,19 @@ app.use("/view", itemViewRoutes)
 //app.use("/items-nearby", getGeoItems)
 
 // connect to db
-console.log("connecting to database")
-mongoose.connect(process.env.MONGO_URI)
- .then(() => {
-    //listen for requests
-    app.listen(process.env.PORT, () => { //uses the port from the .env file
-        console.log('connected to db & listening on port ' + process.env.PORT)
- })
- })
- .catch((error) => {
-    console.log(error)
- })
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    app.listen(process.env.PORT, () => {
+      console.log('connected to db & listening on port ' + process.env.PORT);
+    });
+  })
+  .catch((error) => {
+    console.error('Database connection error:', error);
+    process.exit(1);
+  });
 
- function availableRoutesString() {
+
+function availableRoutesString() {
   return app._router.stack
     .filter(r => r.route)
     .map(r => Object.keys(r.route.methods)[0].toUpperCase().padEnd(7) + r.route.path)
@@ -200,7 +201,7 @@ console.log("availableRoutesString()");
 console.log(availableRoutesString());
 
 // ...sandboxing different methods of scraping
-scrape.scrapeTest(); 
+scrape.scrapeTest();
 
 //scrape.scrapeURL('https://example.com');
 

@@ -1,5 +1,5 @@
 //const { goScrapeByFunctionCall } = require('./scrape.js');
-var itemController = require('./itemController.js');
+let itemController = require('./itemController.js');
 
 /**
 * The method handling which search or scrape calls are made

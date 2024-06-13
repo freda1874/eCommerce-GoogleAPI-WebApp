@@ -11,6 +11,7 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import { UserProvider } from './contexts/user';
 
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
               <Route path="/search" element={<Search />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/blog" element={<Blog />} />
-              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/aboutus" element={<AboutUs />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />  {}
             </Routes>
