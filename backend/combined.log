@@ -1,0 +1,954 @@
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:14:57"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:14:57"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:15:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:15:05"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:15:11"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:15:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:15:11"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:15:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:15:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:15:21"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:16:40"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:16:40"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:16:43"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:16:43"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:16:44"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:16:49"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:18:14"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:18:14"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:18:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:18:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:18:26"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:18:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:18:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:18:32"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:21:29"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:21:29"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:21:30"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:21:31"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:21:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:21:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans | Jeans | R Jeans The Sculpting Black Skinny Petite Cotton Jeans  Pants | Poshmark\",\"price\":0,\"image\":\"https://di2ponv0v5otw.cloudfront.net/posts/2022/02/10/62056635446e59bf632337b7/m_wp_620568d56e28463b84736e11.webp\",\"link\":\"https://poshmark.ca/listing/R-Jeans-the-Sculpting-black-skinny-Petite-cotton-jeans-pants-62056635446e59bf632337b7\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cropped Denim Legging Pants - R Essentials | Regular | Reitmans\",\"price\":0,\"image\":\"https://www.reitmans.com/on/demandware.static/-/Sites-Reitmans-catalog/default/dw83d340e8/images/xlarge/reitmans_476459_480_0.webp\",\"link\":\"https://www.reitmans.com/en/cropped-denim-legging-pants---r-essentials/476459.html\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans denim size 32 x 30 signature Soft High Rise | eBay\",\"price\":0,\"image\":\"https://i.ebayimg.com/images/g/WtkAAOSw2XFkVYea/s-l1200.webp\",\"link\":\"https://www.ebay.ca/itm/256089511954\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:21:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:21:38"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:21:41"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:21:41"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:21:42"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:21:42"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:22:15"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:22:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:22:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:22:20"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:22:55"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:22:55"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:23:00"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:23:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:23:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:23:06"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:14"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:14"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:14"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:14"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:23"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:23:23"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:24:04"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:24:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:24:05"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:24:10"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:26:16"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:26:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:26:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:26:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:26:45"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:26:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:26:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:26:50"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:05"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:05"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:07"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:12"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:17"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:18"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:20"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:24"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:43"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:29:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Ottawa\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100089599245056\",\"link\":\"https://www.facebook.com/StaplesCanadaOttawaOntario3/\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Inc. - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/f/f5/Staples_store.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Staples_Inc.\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Better Office Products 5,000 Count Heavy Duty Staples, 23/13, 1/2-inch  Staples, 100/Strip, Chisel Point Tips, High Capacity, : Amazon.ca: Office  Products\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/I/811ERKxkGpL._AC_UF894,1000_QL80_.jpg\",\"link\":\"https://www.amazon.ca/Staples-Capacity-Better-Office-Products/dp/B08S317TNS\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:48"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:50"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:29:50"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:29:59"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:01"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:02"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:02"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:03"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:04"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:06"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:07"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Convenience - Convenience Store in Toronto\",\"price\":0,\"image\":\"https://fastly.4sqi.net/img/general/600x600/MpnE1sUY4qm-J6KyQoqq0JGUIMXTxnKngwssBCwKLUk.jpg\",\"link\":\"https://foursquare.com/v/laird-convenience/4f4c49c6e4b0acb466480ec0\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Super Store, convenience store on Laird Street, Birkenhead Stock  Photo - Alamy\",\"price\":0,\"image\":\"https://c8.alamy.com/comp/2BKCD1D/laird-super-store-convenience-store-on-laird-street-birkenhead-2BKCD1D.jpg\",\"link\":\"https://www.alamy.com/laird-super-store-convenience-store-on-laird-street-birkenhead-image356159481.html\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"saveItems() -> {\"name\":\"LAIRD Street Convenience STORE | Wallasey\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100083310886474\",\"link\":\"https://m.facebook.com/p/LAIRD-Street-Convenience-STORE-100083310886474/?locale=en_GB\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:19"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:21"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Ottawa\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100089599245056\",\"link\":\"https://www.facebook.com/StaplesCanadaOttawaOntario3/\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:21"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:21"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Inc. - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/f/f5/Staples_store.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Staples_Inc.\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:21"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:21"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Better Office Products 5,000 Count Heavy Duty Staples, 23/13, 1/2-inch  Staples, 100/Strip, Chisel Point Tips, High Capacity, : Amazon.ca: Office  Products\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/I/811ERKxkGpL._AC_UF894,1000_QL80_.jpg\",\"link\":\"https://www.amazon.ca/Staples-Capacity-Better-Office-Products/dp/B08S317TNS\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:24"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:25"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:27"}
+{"level":"info","message":"saveItems() -> {\"name\":\"How Cadbury replaced the Kit Kat on sign at Bayview Jug – The South Bayview  Bulldog\",\"price\":0,\"image\":\"https://i0.wp.com/bayview-news.com/wp-content/uploads/2017/02/jug-cadbury.png?w=368&h=276&ssl=1\",\"link\":\"https://bayview-news.com/2017/02/how-cadbury-replaced-the-kit-kat-on-sign-at-bayview-jug.html/\",\"path\":{\"location\":{\"lat\":43.7068839,\"lon\":-79.3754008},\"radius\":\"15\",\"store\":\"Bayview Jug Milk (Cadbury)\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"saveItems() -> {\"name\":\"BAYVIEW JUG MILK - Updated June 2024 - 1639 Bayview Ave, East York, Ontario  - Convenience Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/CqAjXzOIwSePOmDU73GN-g/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/bayview-jug-milk-east-york\",\"path\":{\"location\":{\"lat\":43.7068839,\"lon\":-79.3754008},\"radius\":\"15\",\"store\":\"Bayview Jug Milk (Cadbury)\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"saveItems() -> {\"name\":\"BAYVIEW JUG MILK - Updated June 2024 - 1639 Bayview Ave, East York, Ontario  - Convenience Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/eNt8be3eU_uap5gsoIiHmg/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/bayview-jug-milk-east-york\",\"path\":{\"location\":{\"lat\":43.7068839,\"lon\":-79.3754008},\"radius\":\"15\",\"store\":\"Bayview Jug Milk (Cadbury)\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:29"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:30"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Valu-mart - Bayview Leaside BIA | Toronto\",\"price\":0,\"image\":\"https://bayviewleasidebia.com/wp-content/uploads/2022/08/GerardRICHARDSON-FINAL_20221110-Bayview-Leaside-BIA-Project_WEB-15021.jpg\",\"link\":\"https://bayviewleasidebia.com/business/valumart/\",\"path\":{\"location\":{\"lat\":43.70353,\"lon\":-79.374591},\"radius\":\"15\",\"store\":\"Bayview Valu-mart Toronto\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"saveItems() -> {\"name\":\"TREMBLETT'S VALU-MART - Updated June 2024 - 1500 Bayview Ave, Toronto,  Ontario - Grocery - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/pxsOveDJD8B_26jCQzpAxQ/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/trembletts-valu-mart-toronto\",\"path\":{\"location\":{\"lat\":43.70353,\"lon\":-79.374591},\"radius\":\"15\",\"store\":\"Bayview Valu-mart Toronto\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Eight-storey development could replace beloved grocery store in Toronto  neighbourhood - Streets Of Toronto\",\"price\":0,\"image\":\"https://d2l4kn3pfhqw69.cloudfront.net/wp-content/uploads/2020/07/valumart.jpg\",\"link\":\"https://streetsoftoronto.com/eight-storey-development-bayview-toronto/\",\"path\":{\"location\":{\"lat\":43.70353,\"lon\":-79.374591},\"radius\":\"15\",\"store\":\"Bayview Valu-mart Toronto\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Ottawa\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100089599245056\",\"link\":\"https://www.facebook.com/StaplesCanadaOttawaOntario3/\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Inc. - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/f/f5/Staples_store.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Staples_Inc.\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Better Office Products 5,000 Count Heavy Duty Staples, 23/13, 1/2-inch  Staples, 100/Strip, Chisel Point Tips, High Capacity, : Amazon.ca: Office  Products\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/I/811ERKxkGpL._AC_UF894,1000_QL80_.jpg\",\"link\":\"https://www.amazon.ca/Staples-Capacity-Better-Office-Products/dp/B08S317TNS\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:40"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:48"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:30:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:52"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:56"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Convenience - Convenience Store in Toronto\",\"price\":0,\"image\":\"https://fastly.4sqi.net/img/general/600x600/MpnE1sUY4qm-J6KyQoqq0JGUIMXTxnKngwssBCwKLUk.jpg\",\"link\":\"https://foursquare.com/v/laird-convenience/4f4c49c6e4b0acb466480ec0\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:56"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:56"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Super Store, convenience store on Laird Street, Birkenhead Stock  Photo - Alamy\",\"price\":0,\"image\":\"https://c8.alamy.com/comp/2BKCD1D/laird-super-store-convenience-store-on-laird-street-birkenhead-2BKCD1D.jpg\",\"link\":\"https://www.alamy.com/laird-super-store-convenience-store-on-laird-street-birkenhead-image356159481.html\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:57"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:30:57"}
+{"level":"info","message":"saveItems() -> {\"name\":\"LAIRD Street Convenience STORE | Wallasey\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100083310886474\",\"link\":\"https://m.facebook.com/p/LAIRD-Street-Convenience-STORE-100083310886474/?locale=en_GB\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:30:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:30:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:04"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"saveItems() -> {\"name\":\"About Us | Kitchen Stuff Plus\",\"price\":0,\"image\":\"https://www.kitchenstuffplus.com/media/wysiwyg/kitchen-stuff-original-store-06.jpg\",\"link\":\"https://www.kitchenstuffplus.com/about-us\",\"path\":{\"location\":{\"lat\":43.7127629,\"lon\":-79.3626598},\"radius\":\"15\",\"store\":\"Kitchen Stuff Plus\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Kitchen Stuff Plus | Houseware & Home Decor Retailer\",\"price\":0,\"image\":\"https://www.kitchenstuffplus.com/static/version1715075334/frontend/Kitchenstuffplus/kitchenstuffplus/en_CA/images/logo.svg\",\"link\":\"https://www.kitchenstuffplus.com/\",\"path\":{\"location\":{\"lat\":43.7127629,\"lon\":-79.3626598},\"radius\":\"15\",\"store\":\"Kitchen Stuff Plus\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"saveItems() -> {\"name\":\"About Us | Kitchen Stuff Plus\",\"price\":0,\"image\":\"https://www.kitchenstuffplus.com/media/wysiwyg/about-us/kitchen-stuff-original-store-02_1.jpg\",\"link\":\"https://www.kitchenstuffplus.com/about-us\",\"path\":{\"location\":{\"lat\":43.7127629,\"lon\":-79.3626598},\"radius\":\"15\",\"store\":\"Kitchen Stuff Plus\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:16"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:16"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Home Depot - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/1200px-TheHomeDepot.svg.png\",\"link\":\"https://en.wikipedia.org/wiki/Home_Depot\",\"path\":{\"location\":{\"lat\":43.7105725,\"lon\":-79.3574681},\"radius\":\"15\",\"store\":\"The Home Depot\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Home Depot | Ottawa ON\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100089449313057\",\"link\":\"https://m.facebook.com/p/The-Home-Depot-100089449313057/\",\"path\":{\"location\":{\"lat\":43.7105725,\"lon\":-79.3574681},\"radius\":\"15\",\"store\":\"The Home Depot\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Home Depot | History, Growth, & the DIY Revolution\",\"price\":0,\"image\":\"https://cdn.britannica.com/99/255799-050-7CE3CB21/The-Home-Depot-Store-Employee-working.jpg\",\"link\":\"https://www.britannica.com/money/Home-Depot\",\"path\":{\"location\":{\"lat\":43.7105725,\"lon\":-79.3574681},\"radius\":\"15\",\"store\":\"The Home Depot\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:22"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:23"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:26"}
+{"level":"info","message":"saveItems() -> {\"name\":\"DONLANDS VARIETY - Updated May 2024 - 4 Donlands Ave, Toronto, Ontario -  Convenience Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/07YEYC_NxSn2LS44lx75TA/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/donlands-variety-toronto\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:26"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:26"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Donlands Variety - Toronto, ON - Untappd\",\"price\":0,\"image\":\"https://assets.untappd.com/photos/2018_05_26/74074aa62c5dcd9ea7f76964e764a6ae_640x640.jpg\",\"link\":\"https://untappd.com/v/donlands-variety/7745671\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Variety and Convenience Stores — MOBILEPICART\",\"price\":0,\"image\":\"https://images.squarespace-cdn.com/content/v1/53a84ff2e4b0a460dd331f95/1480607684842-8VDQSTTRDMCTN0ZCMPWI/DSCF4339-Edit.png\",\"link\":\"https://www.mobilepicart.com/variety-and-convenience-stores\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense Opens New Store in Cornwall - Choose Cornwall : Choose Cornwall\",\"price\":0,\"image\":\"https://choosecornwall.ca/wp-content/uploads/2023/10/HomeSense-Cornwall.jpg\",\"link\":\"https://choosecornwall.ca/news-english/homesense-opens-new-store-in-cornwall/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"What to Know Before Visiting Homesense, the New Spinoff Store From HomeGoods\",\"price\":0,\"image\":\"https://hips.hearstapps.com/countryliving/assets/17/36/1504729578-homesense-2.jpg\",\"link\":\"https://www.countryliving.com/shopping/news/g4775/homesense-homegoods-store-tips/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense welcomes first Vernon customers - Vernon Morning Star\",\"price\":0,\"image\":\"https://www.bpmcdn.com/f/files/vernon/import/2019-08/18098255_web1_190814-VMS-HomeSense-copy.jpg\",\"link\":\"https://www.vernonmorningstar.com/news/homesense-welcomes-first-vernon-customers-3301543\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Best Buy - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Best_Buy_logo_2018.svg/1200px-Best_Buy_logo_2018.svg.png\",\"link\":\"https://en.wikipedia.org/wiki/Best_Buy\",\"path\":{\"location\":{\"lat\":43.7092551,\"lon\":-79.3616804},\"radius\":\"15\",\"store\":\"Best Buy\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Best Buy Ottawa East In Ottawa, ON | Best Buy Canada\",\"price\":0,\"image\":\"https://dynl.mktgcdn.com/p/olxIx0BqliF_-IKCbrCke6kx1GgnqLZPCn9ZZT8LgLs/496x496.jpg\",\"link\":\"https://stores.bestbuy.ca/en-ca/on/ottawa/380-coventry-rd\",\"path\":{\"location\":{\"lat\":43.7092551,\"lon\":-79.3616804},\"radius\":\"15\",\"store\":\"Best Buy\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Best Buy - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Best_Buy_Logo.svg/220px-Best_Buy_Logo.svg.png\",\"link\":\"https://en.wikipedia.org/wiki/Best_Buy\",\"path\":{\"location\":{\"lat\":43.7092551,\"lon\":-79.3616804},\"radius\":\"15\",\"store\":\"Best Buy\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:38"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:39"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:47"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:48"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:31:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:49"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:49"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sobeys Laird & Wicksteed\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100070153155393\",\"link\":\"https://m.facebook.com/p/Sobeys-Laird-Wicksteed-100070153155393/\",\"path\":{\"location\":{\"lat\":43.709069,\"lon\":-79.362385},\"radius\":\"15\",\"store\":\"Sobeys Laird & Wicksteed\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sobeys Laird & Wicksteed\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=356835733331529\",\"link\":\"https://m.facebook.com/p/Sobeys-Laird-Wicksteed-100070153155393/\",\"path\":{\"location\":{\"lat\":43.709069,\"lon\":-79.362385},\"radius\":\"15\",\"store\":\"Sobeys Laird & Wicksteed\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sobeys Laird & Wicksteed - Grocery Store\",\"price\":0,\"image\":\"https://fastly.4sqi.net/img/general/600x600/12206799_kxyb9C27OyFCW71pyczS8Qz69hUfcDsB1ixw4D3Trak.jpg\",\"link\":\"https://foursquare.com/v/sobeys-laird--wicksteed/5d5d2b388649b00008280abb\",\"path\":{\"location\":{\"lat\":43.709069,\"lon\":-79.362385},\"radius\":\"15\",\"store\":\"Sobeys Laird & Wicksteed\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:53"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:54"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Convenience - Convenience Store in Toronto\",\"price\":0,\"image\":\"https://fastly.4sqi.net/img/general/600x600/MpnE1sUY4qm-J6KyQoqq0JGUIMXTxnKngwssBCwKLUk.jpg\",\"link\":\"https://foursquare.com/v/laird-convenience/4f4c49c6e4b0acb466480ec0\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Laird Super Store, convenience store on Laird Street, Birkenhead Stock  Photo - Alamy\",\"price\":0,\"image\":\"https://c8.alamy.com/comp/2BKCD1D/laird-super-store-convenience-store-on-laird-street-birkenhead-2BKCD1D.jpg\",\"link\":\"https://www.alamy.com/laird-super-store-convenience-store-on-laird-street-birkenhead-image356159481.html\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"saveItems() -> {\"name\":\"LAIRD Street Convenience STORE | Wallasey\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100083310886474\",\"link\":\"https://m.facebook.com/p/LAIRD-Street-Convenience-STORE-100083310886474/?locale=en_GB\",\"path\":{\"location\":{\"lat\":43.7136589,\"lon\":-79.36517450000001},\"radius\":\"15\",\"store\":\"Laird Convenience\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:31:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:03"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sport Chek - Downtown Rideau\",\"price\":0,\"image\":\"https://downtownrideau.com/wp-content/uploads/2023/06/Sport-Chek.png\",\"link\":\"https://downtownrideau.com/directory/sport-chek/\",\"path\":{\"location\":{\"lat\":43.7095236,\"lon\":-79.3604503},\"radius\":\"15\",\"store\":\"Sport Chek\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sport Chek - YouTube\",\"price\":0,\"image\":\"https://yt3.googleusercontent.com/ytc/AIdro_nQs8-NSzLbLAhwI3Hi5Op_En72HT36qimCdAv_nUIU5u0=s900-c-k-c0x00ffffff-no-rj\",\"link\":\"https://www.youtube.com/user/SportChekOfficial/videos\",\"path\":{\"location\":{\"lat\":43.7095236,\"lon\":-79.3604503},\"radius\":\"15\",\"store\":\"Sport Chek\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sport Chek | Ottawa | St. Laurent Shopping Centre\",\"price\":0,\"image\":\"https://mallmaverick.imgix.net/property_managers/15/properties/278/stores/43163\",\"link\":\"https://shopstlaurent.com/stores/stlaurent-st-laurent-shopping-centre-sport-chek\",\"path\":{\"location\":{\"lat\":43.7095236,\"lon\":-79.3604503},\"radius\":\"15\",\"store\":\"Sport Chek\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:12"}
+{"level":"info","message":"searchbylocation(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:32:12"}
+{"level":"info","message":"searchbylocation_SERPAPI(,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:32:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:32"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:32"}
+{"level":"info","message":"saveItems() -> {\"name\":\"DONLANDS VARIETY - Updated May 2024 - 4 Donlands Ave, Toronto, Ontario -  Convenience Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/07YEYC_NxSn2LS44lx75TA/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/donlands-variety-toronto\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Donlands Variety - Toronto, ON - Untappd\",\"price\":0,\"image\":\"https://assets.untappd.com/photos/2018_05_26/74074aa62c5dcd9ea7f76964e764a6ae_640x640.jpg\",\"link\":\"https://untappd.com/v/donlands-variety/7745671\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Variety and Convenience Stores — MOBILEPICART\",\"price\":0,\"image\":\"https://images.squarespace-cdn.com/content/v1/53a84ff2e4b0a460dd331f95/1480607684842-8VDQSTTRDMCTN0ZCMPWI/DSCF4339-Edit.png\",\"link\":\"https://www.mobilepicart.com/variety-and-convenience-stores\",\"path\":{\"location\":{\"lat\":43.6806191,\"lon\":-79.3376251},\"radius\":\"15\",\"store\":\"Donlands Variety\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:34"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Quik Mart\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063576133621\",\"link\":\"https://www.facebook.com/QuikMartStores/\",\"path\":{\"location\":{\"lat\":43.6486493,\"lon\":-79.3907862},\"radius\":\"15\",\"store\":\"Quik Mart\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:34"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:34"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Tucson's Family-Owned Quik Mart Chain Sells Business | Convenience Store  News\",\"price\":0,\"image\":\"https://assets1.csnews.com/files/styles/primary_articles_short/s3/2021-12/Quik%20Mart_Tucson%20exterior_0.png?itok=CR158k1y\",\"link\":\"https://csnews.com/tucsons-family-owned-quik-mart-chain-sells-business\",\"path\":{\"location\":{\"lat\":43.6486493,\"lon\":-79.3907862},\"radius\":\"15\",\"store\":\"Quik Mart\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Quik Mart Stores, Inc. | Better Business Bureau® Profile\",\"price\":0,\"image\":\"https://m.bbb.org/prod/ProfileImages/2022/1b1d604e-c152-4369-b159-41807aef8604.png\",\"link\":\"https://www.bbb.org/us/az/tucson/profile/convenience-store/quik-mart-stores-inc-1286-1741\",\"path\":{\"location\":{\"lat\":43.6486493,\"lon\":-79.3907862},\"radius\":\"15\",\"store\":\"Quik Mart\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:35"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense Opens New Store in Cornwall - Choose Cornwall : Choose Cornwall\",\"price\":0,\"image\":\"https://choosecornwall.ca/wp-content/uploads/2023/10/HomeSense-Cornwall.jpg\",\"link\":\"https://choosecornwall.ca/news-english/homesense-opens-new-store-in-cornwall/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"What to Know Before Visiting Homesense, the New Spinoff Store From HomeGoods\",\"price\":0,\"image\":\"https://hips.hearstapps.com/countryliving/assets/17/36/1504729578-homesense-2.jpg\",\"link\":\"https://www.countryliving.com/shopping/news/g4775/homesense-homegoods-store-tips/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense welcomes first Vernon customers - Vernon Morning Star\",\"price\":0,\"image\":\"https://www.bpmcdn.com/f/files/vernon/import/2019-08/18098255_web1_190814-VMS-HomeSense-copy.jpg\",\"link\":\"https://www.vernonmorningstar.com/news/homesense-welcomes-first-vernon-customers-3301543\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense Opens New Store in Cornwall - Choose Cornwall : Choose Cornwall\",\"price\":0,\"image\":\"https://choosecornwall.ca/wp-content/uploads/2023/10/HomeSense-Cornwall.jpg\",\"link\":\"https://choosecornwall.ca/news-english/homesense-opens-new-store-in-cornwall/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"What to Know Before Visiting Homesense, the New Spinoff Store From HomeGoods\",\"price\":0,\"image\":\"https://hips.hearstapps.com/countryliving/assets/17/36/1504729578-homesense-2.jpg\",\"link\":\"https://www.countryliving.com/shopping/news/g4775/homesense-homegoods-store-tips/\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:37"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:32:37"}
+{"level":"info","message":"saveItems() -> {\"name\":\"HomeSense welcomes first Vernon customers - Vernon Morning Star\",\"price\":0,\"image\":\"https://www.bpmcdn.com/f/files/vernon/import/2019-08/18098255_web1_190814-VMS-HomeSense-copy.jpg\",\"link\":\"https://www.vernonmorningstar.com/news/homesense-welcomes-first-vernon-customers-3301543\",\"path\":{\"location\":{\"lat\":43.7141708,\"lon\":-79.3577621},\"radius\":\"15\",\"store\":\"HomeSense\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:32:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:44"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:50"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:32:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:03"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Ottawa\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100089599245056\",\"link\":\"https://www.facebook.com/StaplesCanadaOttawaOntario3/\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Staples Inc. - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/f/f5/Staples_store.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Staples_Inc.\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Better Office Products 5,000 Count Heavy Duty Staples, 23/13, 1/2-inch  Staples, 100/Strip, Chisel Point Tips, High Capacity, : Amazon.ca: Office  Products\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/I/811ERKxkGpL._AC_UF894,1000_QL80_.jpg\",\"link\":\"https://www.amazon.ca/Staples-Capacity-Better-Office-Products/dp/B08S317TNS\",\"path\":{\"location\":{\"lat\":43.7140921,\"lon\":-79.358639},\"radius\":\"15\",\"store\":\"Staples\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:17"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:17"}
+{"level":"info","message":"saveItems() -> {\"name\":\"467 Cosburn Ave, Toronto - Commercial Property For Sale | Zolo.ca\",\"price\":0,\"image\":\"https://photos.zolo.ca/467-cosburn-avenue-toronto-E8232388-1.jpg?2024-04-13+14%3A53%3A25\",\"link\":\"https://www.zolo.ca/toronto-real-estate/467-cosburn-avenue\",\"path\":{\"location\":{\"lat\":43.6925918,\"lon\":-79.3340123},\"radius\":\"15\",\"store\":\"Nino’s Convenience Store\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:17"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> {\"name\":\"NINO SALVAGGIO - Updated May 2024 - 308 Photos & 168 Reviews - 6835  Rochester Rd, Troy, Michigan, United States - Grocery - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/D0K5wEICkNjTqmRsDqVldA/348s.jpg\",\"link\":\"https://www.yelp.ca/biz/nino-salvaggio-troy?hrid=h9ebc3VTNz-g3Jg3V0eENg&rh_ident=westborn&rh_type=phrase\",\"path\":{\"location\":{\"lat\":43.6925918,\"lon\":-79.3340123},\"radius\":\"15\",\"store\":\"Nino’s Convenience Store\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> {\"name\":\"For sale: 467 COSBURN AVENUE, Toronto, Ontario M4J2N6 - E8232388 |  REALTOR.ca\",\"price\":0,\"image\":\"https://cdn.realtor.ca/listing/TS638486190365130000/reb82/highres/8/e8232388_2.jpg\",\"link\":\"https://www.realtor.ca/real-estate/26748519/467-cosburn-avenue-toronto-danforth-village-east-york\",\"path\":{\"location\":{\"lat\":43.6925918,\"lon\":-79.3340123},\"radius\":\"15\",\"store\":\"Nino’s Convenience Store\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Whole Foods Market - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/a/a2/Whole_Foods_Market_201x_logo.svg\",\"link\":\"https://en.wikipedia.org/wiki/Whole_Foods_Market\",\"path\":{\"location\":{\"lat\":43.7140943,\"lon\":-79.3778789},\"radius\":\"15\",\"store\":\"Whole Foods Market\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Lansdowne Park Store | Whole Foods Market\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/storepages/seo/stores-og.png\",\"link\":\"https://www.wholefoodsmarket.com/stores/lansdownepark\",\"path\":{\"location\":{\"lat\":43.7140943,\"lon\":-79.3778789},\"radius\":\"15\",\"store\":\"Whole Foods Market\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Whole Foods Market talks sustainability: 'I think consumers are interested  more than ever about where their food comes from'\",\"price\":0,\"image\":\"https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/article/2019/12/05/whole-foods-market-talks-sustainability-i-think-consumers-are-interested-more-than-ever-about-where-their-food-comes-from/10443775-1-eng-GB/Whole-Foods-Market-talks-sustainability-I-think-consumers-are-interested-more-than-ever-about-where-their-food-comes-from.jpg\",\"link\":\"https://www.foodnavigator-usa.com/Article/2019/12/05/Whole-Foods-Market-talks-sustainability-I-think-consumers-are-interested-more-than-ever-about-where-their-food-comes-from\",\"path\":{\"location\":{\"lat\":43.7140943,\"lon\":-79.3778789},\"radius\":\"15\",\"store\":\"Whole Foods Market\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:32"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Marshalls - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/f/f5/Marshall%27s_at_Millenia_Plaza.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Marshalls\",\"path\":{\"location\":{\"lat\":43.7138435,\"lon\":-79.3591035},\"radius\":\"15\",\"store\":\"Marshalls\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Marshalls | Framingham MA\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61025451835\",\"link\":\"https://www.facebook.com/Marshalls/\",\"path\":{\"location\":{\"lat\":43.7138435,\"lon\":-79.3591035},\"radius\":\"15\",\"store\":\"Marshalls\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Marshalls opens its first online store | CNN Business\",\"price\":0,\"image\":\"https://media.cnn.com/api/v1/images/stellar/prod/190924092300-marshalls-store-file-restricted.jpg?q=w_3800,h_2533,x_0,y_0,c_fill\",\"link\":\"https://www.cnn.com/2019/09/24/business/marshalls-online-store/index.html\",\"path\":{\"location\":{\"lat\":43.7138435,\"lon\":-79.3591035},\"radius\":\"15\",\"store\":\"Marshalls\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:33"}
+{"level":"info","message":"searchbylocation(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:35"}
+{"level":"info","message":"searchbylocation_SERPAPI(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:36"}
+{"level":"info","message":"searchbylocation(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:36"}
+{"level":"info","message":"searchbylocation_SERPAPI(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:37"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:33:37"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:33:37"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:39"}
+{"level":"info","message":"searchbylocation(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:42"}
+{"level":"info","message":"searchbylocation_SERPAPI(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:43"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:43"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:33:46"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:33:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:49"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:49"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:49"}
+{"level":"info","message":"searchbylocation(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:51"}
+{"level":"info","message":"searchbylocation_SERPAPI(Best,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:33:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> {\"name\":\"THE BEST SHOP - Updated June 2024 - 9390 Woodbine Avenue, Markham, Ontario  - Department Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/6oVUm773iHEjFCioz8TruA/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/the-best-shop-markham-5\",\"path\":{\"location\":{\"lat\":43.8723465,\"lon\":-79.36484569999999},\"radius\":\"15\",\"store\":\"The Best Shop\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> {\"name\":\"THE BEST SHOP - Updated June 2024 - 3040 Don Mills Road, Toronto, Ontario -  Convenience Stores - Phone Number - Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/ah-GKOWoQpOsHNnPfFUZLA/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/the-best-shop-toronto-3\",\"path\":{\"location\":{\"lat\":43.8723465,\"lon\":-79.36484569999999},\"radius\":\"15\",\"store\":\"The Best Shop\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"saveItems() -> {\"name\":\"THE BEST SHOP - Updated June 2024 - 37 Photos - 260300 Writing Creek  Crescent, Rocky View County, Alberta - Department Stores - Phone Number -  Yelp\",\"price\":0,\"image\":\"https://s3-media0.fl.yelpcdn.com/bphoto/Zmctv5Z9e4HVoY7C1DDnrA/348s.jpg\",\"link\":\"https://m.yelp.ca/biz/the-best-shop-rocky-view-county-2\",\"path\":{\"location\":{\"lat\":43.8723465,\"lon\":-79.36484569999999},\"radius\":\"15\",\"store\":\"The Best Shop\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:33:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:05"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:07"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sweet potato - Wikipedia\",\"price\":0,\"image\":\"https://upload.wikimedia.org/wikipedia/commons/5/58/Ipomoea_batatas_006.JPG\",\"link\":\"https://en.wikipedia.org/wiki/Sweet_potato\",\"path\":{\"location\":{\"lat\":43.70811,\"lon\":-79.3763802},\"radius\":\"15\",\"store\":\"The Sweet Potato\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Our Sweet Story - The Sweet Potato\",\"price\":0,\"image\":\"https://thesweetpotato.ca/wp-content/uploads/2020/09/The-Sweet-Potato-108-Vine-Ave-1-outside-view-small-2.jpg\",\"link\":\"https://thesweetpotato.ca/about/\",\"path\":{\"location\":{\"lat\":43.70811,\"lon\":-79.3763802},\"radius\":\"15\",\"store\":\"The Sweet Potato\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Sweet potato | Good Food\",\"price\":0,\"image\":\"https://images.immediate.co.uk/production/volatile/sites/30/2020/02/Sweet-potatoes-ca0d8f4.jpg?quality=90&resize=556,505\",\"link\":\"https://www.bbcgoodfood.com/glossary/sweet-potato-glossary\",\"path\":{\"location\":{\"lat\":43.70811,\"lon\":-79.3763802},\"radius\":\"15\",\"store\":\"The Sweet Potato\",\"search\":\"\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:12"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Best award list: all the FIFA World Player winners\",\"price\":0,\"image\":\"https://cdn.resfu.com/media/img_news/list-of-the-best-award-winners--general---besoccer.png\",\"link\":\"https://www.besoccer.com/new/the-best-award-list-all-the-fifa-world-player-winners-1297701\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"95 Years of Oscars: Ranking The Best Picture Winners Part Two – #75-51 –  Awardsdaily\",\"price\":0,\"image\":\"https://www.awardsdaily.com/wp-content/uploads/2023/05/Best-best-picture-75-51.jpg\",\"link\":\"https://www.awardsdaily.com/2023/05/95-years-of-oscars-ranking-the-best-picture-winners-part-two-75-51/\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Best award list: all the FIFA World Player winners\",\"price\":0,\"image\":\"https://cdn.resfu.com/media/img_news/list-of-the-best-award-winners--general---besoccer.png\",\"link\":\"https://www.besoccer.com/new/the-best-award-list-all-the-fifa-world-player-winners-1297701\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Every Best Picture Winner of the 21st Century, Ranked\",\"price\":0,\"image\":\"https://www.rollingstone.com/wp-content/uploads/2024/02/BestPixPix.jpg?w=1581&h=1054&crop=1\",\"link\":\"https://www.rollingstone.com/tv-movies/tv-movie-lists/oscar-best-picture-winners-21st-century-ranked-1234685153/\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"95 Years of Oscars: Ranking The Best Picture Winners Part Two – #75-51 –  Awardsdaily\",\"price\":0,\"image\":\"https://www.awardsdaily.com/wp-content/uploads/2023/05/Best-best-picture-75-51.jpg\",\"link\":\"https://www.awardsdaily.com/2023/05/95-years-of-oscars-ranking-the-best-picture-winners-part-two-75-51/\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Every Best Picture Winner of the 21st Century, Ranked\",\"price\":0,\"image\":\"https://www.rollingstone.com/wp-content/uploads/2024/02/BestPixPix.jpg?w=1581&h=1054&crop=1\",\"link\":\"https://www.rollingstone.com/tv-movies/tv-movie-lists/oscar-best-picture-winners-21st-century-ranked-1234685153/\",\"path\":{\"location\":{\"lat\":43.7094156,\"lon\":-79.3609427},\"radius\":\"15\",\"store\":\"Winners\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:24"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:28"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:34:28"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:34:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:29"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:29"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Best Shop 大多百大型百貨連鎖- CanadaYP.ca|加拿大中文黃頁|CYP\",\"price\":0,\"image\":\"https://www.canadayp.ca/pictures/social_media/pimage-7994-19-photo.png\",\"link\":\"https://www.canadayp.ca/canada/markham/local-business/the-best-shop\",\"path\":{\"location\":{\"lat\":43.8061335,\"lon\":-79.2231489},\"radius\":\"15\",\"store\":\"大多百大型百货连锁 The Best Shop【MT分店】\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"买吧】TheBestShop 轻松下单直邮全加拿大– 买吧The Best Shop\",\"price\":0,\"image\":\"https://cdn.shopify.com/s/files/1/0075/9988/2276/files/cacf348f-5e16-4cdf-9c0d-2a642c959843.png?height=628&pad_color=ffffff&v=1613737172&width=1200\",\"link\":\"https://thebestshop.ca/\",\"path\":{\"location\":{\"lat\":43.8061335,\"lon\":-79.2231489},\"radius\":\"15\",\"store\":\"大多百大型百货连锁 The Best Shop【MT分店】\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"大多百连锁百货thebestshop | Markham ON\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=103121848712574\",\"link\":\"https://www.facebook.com/thebestshopcanada/\",\"path\":{\"location\":{\"lat\":43.8061335,\"lon\":-79.2231489},\"radius\":\"15\",\"store\":\"大多百大型百货连锁 The Best Shop【MT分店】\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:34"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:34:34"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:34:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:38"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:43"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:44"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:48"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:50"}
+{"level":"info","message":"saveItems() -> {\"name\":\"9 Best Dual Sport Motorcycles of All Time\",\"price\":0,\"image\":\"https://www.rideadv.com/hs-fs/hubfs/klr-650-best-dual-sport-motorcycle.jpg?width=1024&height=677&name=klr-650-best-dual-sport-motorcycle.jpg\",\"link\":\"https://www.rideadv.com/ride-adventures-tour-and-rentals-blog/best-dual-sport-motorcycles\",\"path\":{\"location\":{\"lat\":43.713365,\"lon\":-79.3665232},\"radius\":\"15\",\"store\":\"Enduro Sport\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:50"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:50"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Top 10 Dual-Sport Motorcycles | Motorcycle.com\",\"price\":0,\"image\":\"https://cdn-fastly.motorcycle.com/media/2023/02/26/8933788/top-10-dual-sport-motorcycles.jpg?size=720x845&nocrop=1\",\"link\":\"https://www.motorcycle.com/top10/best-dual-sport-motorcycles-of-2019.html\",\"path\":{\"location\":{\"lat\":43.713365,\"lon\":-79.3665232},\"radius\":\"15\",\"store\":\"Enduro Sport\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:50"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:50"}
+{"level":"info","message":"saveItems() -> {\"name\":\"9 Best Dual Sport Motorcycles of All Time\",\"price\":0,\"image\":\"https://www.rideadv.com/hs-fs/hubfs/xr650l-best-dual-sport-motorcycle.jpg?width=1024&height=599&name=xr650l-best-dual-sport-motorcycle.jpg\",\"link\":\"https://www.rideadv.com/ride-adventures-tour-and-rentals-blog/best-dual-sport-motorcycles\",\"path\":{\"location\":{\"lat\":43.713365,\"lon\":-79.3665232},\"radius\":\"15\",\"store\":\"Enduro Sport\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:53"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Holiday Wine Guide: The LCBO's best bottles under $20 - Toronto Life\",\"price\":0,\"image\":\"https://torontolife.mblycdn.com/tl/resized/2023/12/1600x1200/lcbo-bargain-wine-lead.jpg\",\"link\":\"https://torontolife.com/food/holiday-wine-guide-lcbo-bargain-bottles/\",\"path\":{\"location\":{\"lat\":43.7108164,\"lon\":-79.36012769999999},\"radius\":\"15\",\"store\":\"LCBO\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The best buys at the LCBO + how to make wine taste better\",\"price\":0,\"image\":\"https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/4/fe/4feb3c07-8cdd-5afe-be8b-00fd559c1e35/65b278e78c747.image.jpg?resize=1200%2C800\",\"link\":\"https://www.thestar.com/life/food-and-drink/here-are-this-weeks-picks-of-the-best-buys-at-the-lcbo-plus-advice-on/article_1cf0751e-b997-11ee-b7f7-cbc01487cfbf.html\",\"path\":{\"location\":{\"lat\":43.7108164,\"lon\":-79.36012769999999},\"radius\":\"15\",\"store\":\"LCBO\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Save money with these delicious wines under $15 at the LCBO\",\"price\":0,\"image\":\"https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/d/b3/db37f137-d4b4-54e4-aaa1-e720c3119a55/65983b7819ca9.image.jpg?crop=1296%2C729%2C0%2C67&resize=1296%2C729&order=crop%2Cresize\",\"link\":\"https://www.thestar.com/life/food-and-drink/save-money-with-these-delicious-wines-under-15-at-the-lcbo/article_7e97d8f2-a97f-11ee-a4dd-e74952710411.html\",\"path\":{\"location\":{\"lat\":43.7108164,\"lon\":-79.36012769999999},\"radius\":\"15\",\"store\":\"LCBO\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:34:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:03"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:06"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:35:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:35:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:35:26"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"saveItems() -> {\"name\":\"10 Best R Programming Courses for Data Science and Statistics in 2024 | by  javinpaul | Javarevisited | Medium\",\"price\":0,\"image\":\"https://miro.medium.com/v2/resize:fit:750/0*qps2EtcgGHVCGxuc.jpg\",\"link\":\"https://medium.com/javarevisited/10-best-r-programming-courses-for-data-science-and-statistics-8f84ebec4974\",\"path\":{\"location\":{\"lat\":43.6892942,\"lon\":-79.32291529999999},\"radius\":\"15\",\"store\":\"R&S East York Convenience\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Best initial letter r logo design graphic download\",\"price\":0,\"image\":\"https://cdn.vectorstock.com/i/500p/54/65/best-initial-letter-r-logo-design-graphic-download-vector-35165465.jpg\",\"link\":\"https://www.vectorstock.com/royalty-free-vector/best-initial-letter-r-logo-design-graphic-download-vector-35165466\",\"path\":{\"location\":{\"lat\":43.6892942,\"lon\":-79.32291529999999},\"radius\":\"15\",\"store\":\"R&S East York Convenience\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"saveItems() -> {\"name\":\"9 Best R Logos and How to Make Your Own for Free [2024]\",\"price\":0,\"image\":\"https://images.websiteplanet.com/wp-content/uploads/2020/07/9-Best-R-Logos-and-How-to-Make-Your-Own-for-Free-image2.png\",\"link\":\"https://www.websiteplanet.com/blog/r-logo-design/\",\"path\":{\"location\":{\"lat\":43.6892942,\"lon\":-79.32291529999999},\"radius\":\"15\",\"store\":\"R&S East York Convenience\",\"search\":\"Best\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:35:27"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:39:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:39:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:39:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:39:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:39:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:39:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:39:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:39:27"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:41:53"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:41:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:41:53"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:41:56"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:41:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:41:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:41:58"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:42:00"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:42:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:42:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:42:00"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans | Jeans | R Jeans The Sculpting Black Skinny Petite Cotton Jeans  Pants | Poshmark\",\"price\":0,\"image\":\"https://di2ponv0v5otw.cloudfront.net/posts/2022/02/10/62056635446e59bf632337b7/m_wp_620568d56e28463b84736e11.webp\",\"link\":\"https://poshmark.ca/listing/R-Jeans-the-Sculpting-black-skinny-Petite-cotton-jeans-pants-62056635446e59bf632337b7\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"4\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cropped Denim Legging Pants - R Essentials | Regular | Reitmans\",\"price\":0,\"image\":\"https://www.reitmans.com/on/demandware.static/-/Sites-Reitmans-catalog/default/dw83d340e8/images/xlarge/reitmans_476459_480_0.webp\",\"link\":\"https://www.reitmans.com/en/cropped-denim-legging-pants---r-essentials/476459.html\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"4\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans denim size 32 x 30 signature Soft High Rise | eBay\",\"price\":0,\"image\":\"https://i.ebayimg.com/images/g/WtkAAOSw2XFkVYea/s-l1200.webp\",\"link\":\"https://www.ebay.ca/itm/256089511954\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"4\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:42:05"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:47:01"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:47:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:47:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:47:06"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:47:10"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,4)","service":"shopful-logger","timestamp":"2024-06-13 01:47:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:47:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:47:17"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:49:17"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:49:17"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:49:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:49:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:49:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:49:25"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:52:07"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:52:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:52:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:52:13"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:52:39"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:52:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:52:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:52:44"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:54:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:54:18"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:54:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:54:18"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:27"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:53"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:54:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:54:58"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:55:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:55:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:55:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:55:26"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:16"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:40"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:40"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:41"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:57:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:41"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans | Jeans | R Jeans The Sculpting Black Skinny Petite Cotton Jeans  Pants | Poshmark\",\"price\":0,\"image\":\"https://di2ponv0v5otw.cloudfront.net/posts/2022/02/10/62056635446e59bf632337b7/m_wp_620568d56e28463b84736e11.webp\",\"link\":\"https://poshmark.ca/listing/R-Jeans-the-Sculpting-black-skinny-Petite-cotton-jeans-pants-62056635446e59bf632337b7\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:45"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cropped Denim Legging Pants - R Essentials | Regular | Reitmans\",\"price\":0,\"image\":\"https://www.reitmans.com/on/demandware.static/-/Sites-Reitmans-catalog/default/dw83d340e8/images/xlarge/reitmans_476459_480_0.webp\",\"link\":\"https://www.reitmans.com/en/cropped-denim-legging-pants---r-essentials/476459.html\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:45"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans denim size 32 x 30 signature Soft High Rise | eBay\",\"price\":0,\"image\":\"https://i.ebayimg.com/images/g/WtkAAOSw2XFkVYea/s-l1200.webp\",\"link\":\"https://www.ebay.ca/itm/256089511954\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:57:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Black Slim Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1516-Smart-Stretch-Slim-Black_1461_FB.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-slim-black\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Smart Stretch Pant Slim Charcoal Heather | Duer | Bricks and Bonds\",\"price\":0,\"image\":\"https://bricksandbonds.ca/cdn/shop/products/4e9730b0f706be9be3e41c9cf5145675_1024x1024.jpg?v=1675880188\",\"link\":\"https://bricksandbonds.ca/products/smart-stretch-pant-slim-charcoal-heather\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Relaxed Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1616-SMART-STRETCH-SLIM-CHARCOAL-HEATHER-BestDressed-FB_03acf0b9-6706-459b-bfa7-7b72ecb1331e.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-relaxed\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 01:57:51"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:59:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:59:18"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:59:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 01:59:18"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:28"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:54"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:54"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:55"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 01:59:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 01:59:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:01"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Black Slim Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1516-Smart-Stretch-Slim-Black_1461_FB.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-slim-black\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Smart Stretch Pant Slim Charcoal Heather | Duer | Bricks and Bonds\",\"price\":0,\"image\":\"https://bricksandbonds.ca/cdn/shop/products/4e9730b0f706be9be3e41c9cf5145675_1024x1024.jpg?v=1675880188\",\"link\":\"https://bricksandbonds.ca/products/smart-stretch-pant-slim-charcoal-heather\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Relaxed Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1616-SMART-STRETCH-SLIM-CHARCOAL-HEATHER-BestDressed-FB_03acf0b9-6706-459b-bfa7-7b72ecb1331e.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-relaxed\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:00:05"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:00:28"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:10"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:10"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Cargo Pant\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1346-800x800.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/product&product_id=565\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0104/1341-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1345-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:15"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:40"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:40"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:41"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:42"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:02:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:02:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Smart Stretch Pant Slim Charcoal Heather | Duer | Bricks and Bonds\",\"price\":0,\"image\":\"https://bricksandbonds.ca/cdn/shop/products/4e9730b0f706be9be3e41c9cf5145675_1024x1024.jpg?v=1675880188\",\"link\":\"https://bricksandbonds.ca/products/smart-stretch-pant-slim-charcoal-heather\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Black Slim Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1516-Smart-Stretch-Slim-Black_1461_FB.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-slim-black\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Relaxed Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1616-SMART-STRETCH-SLIM-CHARCOAL-HEATHER-BestDressed-FB_03acf0b9-6706-459b-bfa7-7b72ecb1331e.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-relaxed\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:02:51"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:04:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:04:18"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:04:18"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:04:18"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:23"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Cargo Pant\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1346-800x800.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/product&product_id=565\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0104/1341-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1345-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:33"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:38"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Smart Stretch Pant Slim Charcoal Heather | Duer | Bricks and Bonds\",\"price\":0,\"image\":\"https://bricksandbonds.ca/cdn/shop/products/4e9730b0f706be9be3e41c9cf5145675_1024x1024.jpg?v=1675880188\",\"link\":\"https://bricksandbonds.ca/products/smart-stretch-pant-slim-charcoal-heather\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:39"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:39"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Black Slim Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1516-Smart-Stretch-Slim-Black_1461_FB.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-slim-black\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:39"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:04:39"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Relaxed Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1616-SMART-STRETCH-SLIM-CHARCOAL-HEATHER-BestDressed-FB_03acf0b9-6706-459b-bfa7-7b72ecb1331e.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-relaxed\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:04:39"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:04:56"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:01"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Cargo Pant\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1346-800x800.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/product&product_id=565\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0104/1341-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cargo Pants\",\"price\":0,\"image\":\"https://bcasual.ca/image/cache/catalog/Men's%20Cargo/FFW0105/1345-450x450.jpg\",\"link\":\"https://bcasual.ca/index.php?route=product/category&path=82\",\"path\":{\"location\":{\"lat\":43.80920920000001,\"lon\":-79.269564},\"radius\":\"15\",\"store\":\"BCasual\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:02"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:21"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"searchbylocation(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(pant,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:29"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans | Jeans | R Jeans The Sculpting Black Skinny Petite Cotton Jeans  Pants | Poshmark\",\"price\":0,\"image\":\"https://di2ponv0v5otw.cloudfront.net/posts/2022/02/10/62056635446e59bf632337b7/m_wp_620568d56e28463b84736e11.webp\",\"link\":\"https://poshmark.ca/listing/R-Jeans-the-Sculpting-black-skinny-Petite-cotton-jeans-pants-62056635446e59bf632337b7\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cropped Denim Legging Pants - R Essentials | Regular | Reitmans\",\"price\":0,\"image\":\"https://www.reitmans.com/on/demandware.static/-/Sites-Reitmans-catalog/default/dw83d340e8/images/xlarge/reitmans_476459_480_0.webp\",\"link\":\"https://www.reitmans.com/en/cropped-denim-legging-pants---r-essentials/476459.html\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans denim size 32 x 30 signature Soft High Rise | eBay\",\"price\":0,\"image\":\"https://i.ebayimg.com/images/g/WtkAAOSw2XFkVYea/s-l1200.webp\",\"link\":\"https://www.ebay.ca/itm/256089511954\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans | Jeans | R Jeans The Sculpting Black Skinny Petite Cotton Jeans  Pants | Poshmark\",\"price\":0,\"image\":\"https://di2ponv0v5otw.cloudfront.net/posts/2022/02/10/62056635446e59bf632337b7/m_wp_620568d56e28463b84736e11.webp\",\"link\":\"https://poshmark.ca/listing/R-Jeans-the-Sculpting-black-skinny-Petite-cotton-jeans-pants-62056635446e59bf632337b7\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Cropped Denim Legging Pants - R Essentials | Regular | Reitmans\",\"price\":0,\"image\":\"https://www.reitmans.com/on/demandware.static/-/Sites-Reitmans-catalog/default/dw83d340e8/images/xlarge/reitmans_476459_480_0.webp\",\"link\":\"https://www.reitmans.com/en/cropped-denim-legging-pants---r-essentials/476459.html\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> {\"name\":\"R Jeans by Rinascimento Damen stretch 7/8 Hose slim skinny GrS W25 W26 blau  NEU. | eBay\",\"price\":0,\"image\":\"https://i.ebayimg.com/images/g/qo4AAOSwVgdfs~87/s-l1200.jpg\",\"link\":\"https://www.ebay.ca/itm/276003637208\",\"path\":{\"location\":{\"lat\":43.6170386,\"lon\":-79.55669569999999},\"radius\":\"15\",\"store\":\"R Jeans\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 02:05:31"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Smart Stretch Pant Slim Charcoal Heather | Duer | Bricks and Bonds\",\"price\":0,\"image\":\"https://bricksandbonds.ca/cdn/shop/products/4e9730b0f706be9be3e41c9cf5145675_1024x1024.jpg?v=1675880188\",\"link\":\"https://bricksandbonds.ca/products/smart-stretch-pant-slim-charcoal-heather\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Black Slim Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1516-Smart-Stretch-Slim-Black_1461_FB.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-slim-black\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Men's Relaxed Fit Stretch Dress Pant\",\"price\":0,\"image\":\"https://duer.ca/cdn/shop/files/MPHS1616-SMART-STRETCH-SLIM-CHARCOAL-HEATHER-BestDressed-FB_03acf0b9-6706-459b-bfa7-7b72ecb1331e.jpg?v=1702080178&width=1200\",\"link\":\"https://duer.ca/products/mens-stretch-office-pants-relaxed\",\"path\":{\"location\":{\"lat\":43.7320559,\"lon\":-79.4618879},\"radius\":\"15\",\"store\":\"Smart Pant Shop\",\"search\":\"pant\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 02:05:36"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:07:36"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 02:07:36"}

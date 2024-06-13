@@ -10,30 +10,31 @@ const Search = () => {
     const { state } = location;
 
     const fetchItems = useCallback(async () => {
-        const item = state.search;
+        var item = state.search;
         console.log(item);
-        const rad = state.rad;
+        var rad = state.rad;
         const response = await fetch(`/db/items/searchDB?str=${item}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
         const json = await response.json();
         if (response.ok) {
             setItems(json);
         }
-    }, [state]);
+    }, [state.search, state.rad]);
+
+    const debugCalls = async (radius) => {
+        console.log("Search.js - Called from interval");
+        fetchItems();
+    }
+
+    setInterval(debugCalls, 300000);
 
     useEffect(() => {
         console.log("Search.js - Called from useEffect");
+        const interval = setInterval(fetchItems, 300000);
         fetchItems();
-    }, [fetchItems]);
+    
+        return () => clearInterval(interval);
+    }, [fetchItems, state]); 
 
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-            console.log("Search.js - Called from interval");
-            fetchItems();
-        }, 300000); // 300000 ms or 5 minutes
-
-        // Clear interval on component unmount
-        return () => clearInterval(intervalId);
-    }, [fetchItems]);
     return (
     <div className="search-page">
     <SearchBar />

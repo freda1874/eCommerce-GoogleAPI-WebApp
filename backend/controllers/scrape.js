@@ -60,75 +60,16 @@ const { isString } = require('mathjs');
 function scrapeTest() {
 
     console.log("scrapeTest()");
-    //logger.loggerPost("scrapeTest()");
-
-    // scrape testing for Toronto, CA
-    //searchbylocation('black pants', "46.6532", "-79.3832", 5000);
-    //searchbylocation_SERPAPI('shoes', "46.6532", "-79.3832", 10000);
-
+    
     console.log("scrapeTest() Done");
     //logger.loggerPost("scrapeTest() Done");
 
-    return;
-
-    // ************************************************
-    // ************************************************
-    // Used for testing individual functions
-    //url = 'https://example.com';
-    //scrapeURL(url);
-
-    //url = 'https://httpbin.io/anything';
-    //scrapeURLzen(url);
-
-    //searchSERP("Pants");
-    //searchSERPlocal("Pants", "Phoenix, Arizona, United States");
-    //searchSERPshopping('Pants', 'Phoenix, Arizona, United States');
-    //console.log(a[0].title);
-    //console.log(a);
-
-    //getScrapeData();
-
-    //loadScrapeData("33.611", "-112.0639759");
-
-    //var s = String('>$123.234242342 - 5000 ABS   ');
-    //console.log(scrubPrice(s));
-    //return;
-
-    //scrapeImage("hats Heritage Hats");
+    return; 
 }
 
 function getResults(params) {
     getJson(params, async (results) => {
-        console.log(results);
-        //console.log(results.local_results.length);
-        //console.log(results.local_results[0]);
-        //console.log(results.local_results[0].images[0]);
-
-        // local_results: [
-        //     {
-        //       position: 1,
-        //       title: '4 Wheelies - Roller Skating Center',
-        //       gps_coordinates: gps_coordinates: { latitude: 45.3525259, longitude: -75.7817205 },
-        //       type: 'Sports complex',
-        //       address: '1101 Baxter Rd, Ottawa, CA K2C 3Z3',
-        //       city: 'Ottawa',
-        //       timezone: 'America/Toronto',
-        //       phone: '+16136654444',
-        //       website: 'https://4wheelies.com',
-        //       link: 'https://www.tripadvisor.com/Attraction_Review-g155004-d26660862-Reviews-4Wheelies_Roller_Skating_Center-Ottawa_Ontario.html?m=63959',
-        //       thumbnail: 'http://media-cdn.tripadvisor.com/media/photo-s/2a/7c/23/9a/unleash-the-good-times.jpg',
-        //       images: [Array],
-        //       rating: 2.5,
-        //       reviews: 2,
-        //       profiles: [Object],
-        //       source: [Array],
-        //       review_details: [Array],
-        //       types: [Array],
-        //       hours: 'Open · Closes at 12:00 AM',
-        //       operating_hours: [Object]
-        //     },
-        //gps_coordinates: { latitude: 45.3525259, longitude: -75.7817205 },
-
+        console.log(results); 
         try {
 
             if (!results.local_results) {
@@ -361,14 +302,7 @@ function searchbylocation(item, latitude, longitude, radius) {
             throw new Error("ERROR!!! searchbylocation() - requested item is invalid!");
         }
 
-        // Construct the API request path used to request data from Google Places API
-        // for locations (stores) where the 'item' can be found
-        // parameters:
-        //  item 
-        //  lat
-        //  lon
-        //  radius in km
-        //  Google API Key
+        
         const pth = new String('/maps/api/place/textsearch/json?query=' + encodeURIComponent(item) + '&location=' + latitude + ',' + longitude + '&radius=' + radius + '&type=store&key=' + GOOGLE_apikey);
         console.log("searchbylocation() pth->%s\n", pth);
 
@@ -553,7 +487,7 @@ process.on('message', rq => {
  * 
  * 
  */
-function saveItems(items) {
+async function saveItems(items) {
     console.log("saveItems() *** saveItems *** ");
 
     try {
@@ -598,7 +532,11 @@ function saveItems(items) {
                 }
 
                 // Save the new database product to the database
-                itemController.createItem(newDBProduct);
+                try {
+                    await itemController.createItem(newDBProduct);
+                } catch (error) {
+                    console.error("Failed to create item:", error);
+                }
 
                 var s = JSON.stringify(newDBProduct);
                 logger.loggerPost(`saveItems() -> ${s}`);
@@ -722,7 +660,7 @@ async function getPrice(url) {
     console.log("getPrice(%s)\n", url);
 
     // 20240203: todo: Do not search for prices at this time. Improve latency and get content per Nadia
-  
+
 
     try {
         // Make an HTTP GET request to the specified URL
@@ -768,81 +706,7 @@ async function getPrice(url) {
 //   console.log('results', results);
 
 // })();
-
-
-/*
-async function getUser() {
-    try {
-      const response = await axios.get('https://oldnavy.gap.com/browse/product.do?pid=549102022#pdp-page-content');
-      //console.log(response);
-
-        const cheerio = require("cheerio");
-        const pretty = require("pretty");
-      
-      const $ = cheerio.load(response.data);
-
-      //console.log(pretty($.html()));
-
-
-      //const { Parser } = require('simple-text-parser');
-      // const parser = new Parser();
-
-        const s = String($.html());
-
-        //console.log(s.length);
-
-        for(var i=0; i<s.length; i++){
-            if(s[i]=='>' && s[i+1]=='$'){
-                console.log(s[i+2] + s[i+3] + s[i+4] + s[i+5] + s[i+6] + s[i+7]);
-            }
-        }
-
-
-    } catch (error) {
-      console.error(error);
-    }
-  }
-
-  getUser();
-
-*/
-
-
-/*
-
-    const axios = require('axios');
-
-    // set up the request parameters
-    const params = {
-        api_key: SCALESERP_apikey,
-        q: item,
-        location: 'lat:' + latitude + ',lon:' + longitude,
-        google_domain: 'google.com',
-        gl: 'us',
-        hl: 'en',
-        device: 'desktop',
-        num: '10',
-        output: 'json'
-    }
-
-    // make the http GET request to Scale SERP
-    axios.get('https://api.scaleserp.com/search', { params })
-    .then(response => {
-
-        // print the JSON response from Scale SERP
-        console.log(JSON.stringify(response.data, 0, 2));
-
-    }).catch(error => {
-        // catch and print the error
-        console.log(error);
-    })
-
-*/
-
-//}
-
-// *********************************************************
-
+ 
 function loadScrapeData(latitude, longitude) {
 
     // test data
@@ -871,7 +735,7 @@ function loadScrapeData(latitude, longitude) {
             p = 0;
         }
 
-      let  newDBProduct = {
+        let newDBProduct = {
             name: local_results[i].title,
             price: p,
 
@@ -897,9 +761,7 @@ function loadScrapeData(latitude, longitude) {
         //dbProducts.push(newDBProduct);
     }
 
-}
-
-// *********************************************************
+} 
 
 function getScrapeData(latitude, longitude) {
 
@@ -931,8 +793,7 @@ function getScrapeData(latitude, longitude) {
             console.log(error);
         })
 }
-
-// ************************************
+ 
 
 const goScrape = async (req, res) => {
 
@@ -955,283 +816,7 @@ const goScrape = async (req, res) => {
 
     return;
 }
-
-/**
-* This function is same as goScrape but able to be called by other backend running programs
-* This function is called by itemController.getDBSearch, which will search for items related to the
-* Search parameters, then if not enough items are found, or the scrape flag is set, call this function to
-* scrape the web
-**/
-// function goScrapeByFunctionCall(query, lat, lon, radius){
-
-//     console.log("*** goScrapeByFunctionCall() ***");
-
-//     try{
-
-//         console.log(req.query);
-
-//         searchbylocation(query, lat, lon, radius)
-
-//     } catch (error) {
-//         console.error(error);
-//     }
-
-//     return;
-// }
-
-// let url = "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Phoenix%2C+AZ%2C+Arizona%2C+United+States&ludocid=1678087246074259484&q=shirts"
-
-// let settings = { method: "Get" };
-
-// fetch(url, settings)
-//     .then(res => res.json())
-//     .then((json) => {
-
-//     console.log(json);
-
-//     var local_results = json['local_results'];
-
-//     console.log(local_results);
-
-//         // do something with JSON
-//     });
-// return;
-
-//     // test data
-//     var results = require('./results3.json');
-//     var local_results = results['local_results'];
-//     console.log(local_results[0]);
-
-//     return;
-
-//     console.log("*** goScrape ***");
-//     console.log(req.query);
-
-//     var { query, lat, lon, radius } = req.query;
-
-//     // example url:
-//     // http://localhost:4000/view/goScrape?query=pants&lat=33.611&lon=-112.0639759&radius=1000
-
-//     console.log("*** goScrape serpAPI ***");
-//     // perform serpAPI request
-//     getJson({
-//         api_key: SERPAPI_apikey,
-//         engine: "google_local",
-//         q: query,
-//         location: "Phoenix, AZ, Arizona, United States",
-//         google_domain: "google.com",
-//         gl: "us",
-//         hl: "en"
-//         //tbs: "local_avail:1", // this is not supported anymore?
-//         }, (results) => {
-//                 console.log(results);
-
-//                 const serpAPI_results2 = {
-//                     created_at: results['search_metadata'].created_at,
-//                     updated_at: results['search_metadata'].processed_at,
-//                     json: results
-//                 }
-//                 saveScrapedData(serpAPI_results2);
-
-//                 var local_results = results['local_results'];
-//                 //console.log(local_results[0]);
-
-//                 //var dbProducts = [];    
-
-//                 // Iterate over the search results
-//                 for (let i = 0; i < local_results.length; i++) {
-
-//                     console.log(local_results[i]);
-
-//                     const newDBProduct = {
-//                         name: local_results[i].description,
-//                         //price: local_results[i].price,
-//                         price: 100.00,
-//                         image: local_results[i].thumbnail,
-
-//                         //link: local_results[i].link,
-//                         link: local_results[i].thumbnail, // placeholder
-
-//                         path: {
-//                             location: {
-//                                 lat: local_results[i].gps_coordinates.latitude,
-//                                 lon: local_results[i].gps_coordinates.longitude
-//                             },
-//                             radius: radius,
-//                             store: local_results[i].title,
-//                             search: query
-//                         },
-//                         method: 'serpAPI.google_local'
-//                     };
-
-//                     itemController.createItem(newDBProduct);
-
-//                     //dbProducts.push(newDBProduct);
-//                 }
-
-//                 //console.log('***********dbProducts**************');
-//                 //console.log(dbProducts);
-
-//             }
-//     );
-
-//     return;
-// }
-
-// const axios = require('axios');
-
-// // set up the request parameters
-// const params = {
-// api_key: "",
-//   search_type: "places",
-//   q: "pants",
-//   location: "location=lat:33.611,lon:-112.0639759,zoom:15",
-//   gl: "us",
-//   hl: "en",
-//   device: "desktop"
-// }
-
-// // make the http GET request to Scale SERP
-// axios.get('https://api.scaleserp.com/search', { params })
-// .then(response => {
-
-//     // print the JSON response from Scale SERP
-//     console.log(JSON.stringify(response.data, 0, 2));
-
-//   }).catch(error => {
-// // catch and print the error
-// console.log(error);
-// })
-
-// test data
-//var results = require('./results3.json');
-//var local_results = results['local_results'];
-//console.log(local_results[0]);
-
-//query = 'pants';
-//lat = '33.611';
-//lon = '-112.0639759';
-//radius = '1000';
-
-
-//location=lat:33.611,lon:-112.0639759,zoom:15
-
-
-// // convert 
-
-// const options = {
-//     provider: 'google',
-
-//     // Optional depending on the providers
-//     fetch: customFetchImplementation,
-//     apiKey: GOOGLE_API_KEY, // for Mapquest, OpenCage, Google Premier
-//     formatter: null // 'gpx', 'string', ...
-//   };
-
-//   const geocoder = NodeGeocoder(options);
-
-// const rex = await geocoder.reverse({ lat: 45.767, lon: 4.833 });
-// console.log(rex);
-
-// const uule = createUule('Phoenix, ARizona, United States'); // Canonical name of the location
-
-
-
-// console.log(uule);
-// return;
-
-
-//searchSERPshopping('Pants', 'Phoenix, Arizona, United States');
-
-//var config = require('./test.json');
-//console.log(config.firstName + ' ' + config.lastName);
-
-//var results = require('./results3.json');
-
-//console.log(results);
-//console.log(results['search_metadata'].created_at);
-//console.log(results['search_metadata'].processed_at);
-
-//const serpAPI_results = {
-//    created_at: results['search_metadata'].created_at,
-//    updated_at: results['search_metadata'].processed_at,
-//    json: results
-//}
-
-//console.log(results['inline_shopping_results'][0]);
-//console.log(results['local_results'][0]);
-
-//return;
-
-
-// ***************************************************
-//var local_results = results['local_results'];
-
-
-//     saveScrapedData(serpAPI_results);
-
-//     getJson({
-//         api_key: SERPAPI_apikey,
-//         engine: "google_shopping",
-//         q: "pants",
-//         location: "Phoenix, AZ, Arizona, United States",
-//         google_domain: "google.com",
-//         gl: "us",
-//         hl: "en",
-//         tbs: "local_avail:1",
-//       }, (results) => {
-//         console.log(results);
-
-//         const serpAPI_results2 = {
-//             created_at: results['search_metadata'].created_at,
-//             updated_at: results['search_metadata'].processed_at,
-//             json: results
-//         }
-
-//         saveScrapedData(serpAPI_results2);
-
-//     var inline_shopping_results = results['inline_shopping_results'];
-//     //console.log(inline_shopping_results);
-
-//     var dbProducts = [];    
-
-//     // Iterate over the search results
-//     for (let i = 0; i < inline_shopping_results.length; i++) {
-
-//         console.log(inline_shopping_results[i]);
-
-//         const newDBProduct = {
-//             name: inline_shopping_results[i].title,
-//             price: inline_shopping_results[i].price,
-//             image: inline_shopping_results[i].thumbnail,
-//             link: inline_shopping_results[i].link,
-//             path: {
-//                 location: {
-//                     lat: lat,
-//                     lon: lon
-//                 },
-//                 radius: radius,
-//                 store: inline_shopping_results[i].source,
-//                 search: query
-//             },
-//             method: 'google_shopping'
-//         };
-
-//         await itemController.createItem(newDBProduct);
-
-//         console.log('***********newDBProduct***************');
-//         dbProducts.push(newDBProduct);
-//         console.log('**************************');
-
-//     }
-
-//     console.log('***********dbProducts**************');
-//     console.log(dbProducts);
-
-// //    });
-
-//     return;
-// }
+ 
 
 /**
  * @brief Saves scraped data using the ScrapeSerpAPI.
@@ -1424,86 +1009,7 @@ function searchSERPshopping(item, city) {
     }, (json) => {
         console.log(json);
     });
-
-
-    // leaving this code as an example of the datastructures that are processed.
-    // Strictly, as a reference.
-
-    //var jsonObj;
-
-    // // Make a request to the Shopping SERP API using the provided parameters
-    // // https://serpapi.com/nearby-results
-    // getJson({
-    //     api_key: SERPAPI_apikey,
-    //     engine: "google_shopping",
-    //     q: item,
-    //     tbs: "local_avail:1",
-    //     location: city,
-    //     hl: "en",
-    //     gl: "us"
-    // }, (json) => {
-    //     // Log the retrieved nearby shopping results to the console
-    //     //console.log(json["nearby_shopping_results"][0].items[0]);
-    //     //console.log(json);
-    //     console.log(json["nearby_shopping_results"]);
-
-    //     //jsonObj = json["nearby_shopping_results"];
-    //     //console.log(jsonObj);
-    // });
-
-    //return(jsonObj);
-
-    // var jsonObj = [{
-    //     title: 'REI',
-    //     link: 'https://www.google.com/search?sca_esv=575083004&hl=en&gl=us&q=REI&ludocid=14189887071945013637&ibp=gwp;0,7&lsig=AB86z5XUTLElR6fxi7BFgci1iwfs&sa=X&ved=0ahUKEwiovKSZ5IOCAxWgE1kFHeI8DvYQgYkFCNobKAA',
-    //     serpapi_link: 'https://serpapi.com/search.json?engine=google&gl=us&hl=en&ibp=gwp%3B0%2C7&lsig=AB86z5XUTLElR6fxi7BFgci1iwfs&ludocid=14189887071945013637&q=REI&sa=X&sca_esv=575083004&ved=0ahUKEwiovKSZ5IOCAxWgE1kFHeI8DvYQgYkFCNobKAA',
-    //     address: '12634 N Paradise Village Pkwy W, Phoenix',
-    //     distance: '16.7 miles',
-    //     hours: 'Today: 10:00 AM - 9:00 PM',
-    //     phone: '(602) 996-5400',
-    //     delivery_options: [ 'Curbside pickup', 'In‑store pickup' ],
-    //     directions: 'https://maps.google.com/maps?uule=w+CAIQICIdUGhvZW5peCxBcml6b25hLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&daddr=12634+N+Paradise+Village+Pkwy+W,+Phoenix,+AZ+85032,+United+States',
-    //     items: [ {
-    //         title: "Ae Dreamy Drape Stretch Super High-Waisted Cargo Baggy Wide-Leg Pant Women's Black 000 Regular",
-    //         link: 'https://www.google.com/shopping/product/6897385237758039487?hl&prds=oid:14362320084568367121,pid:14311549185432444062&sts=2&lsf=seller:15899,store:983771447637265875,s:h',
-    //         thumbnail: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRkFm2cotcwBg1C0Xi7gaWWsW6hD6h40qDMw5lqGnTo3gQP6lzzSf7pdZQvHYlFxSLggIyn63VSKRVcRmvvbshnby1S_CifT03mqFRWgWTb6FvXc4_TzMFO&usqp=CAE',
-    //         price: '$29.99',
-    //         extracted_price: 29.99,
-    //         stock_information: 'In Stock'
-    //     } ]
-    // }];
-
-    // var dbProducts = [];    
-
-    // // Iterate over the search results
-    // for (let p = 0; p < jsonObj.length; p++) {
-
-    //     for (let i = 0; i < jsonObj[p].items.length; i++) {
-    //         //console.log(jsonObj[p].items[i].title);
-
-    //         const newDBProduct = {
-    //             name: jsonObj[p].items[i].title,
-    //             price: jsonObj[p].items[i].price,
-    //             image: jsonObj[p].items[i].thumbnail,
-    //             link: jsonObj[p].items[i].link,
-    //             path: {
-    //                 location: {
-    //                     lat: '33.611',
-    //                     lon: '-112.0639759'
-    //                 },
-    //                 radius: '1000',
-    //                 store: jsonObj[p].title,
-    //                 search: item
-    //             },
-    //             method: 'google_shopping'
-    //         };
-
-    //         dbProducts.push(newDBProduct);
-    //     };
-    // };
-
-    // return dbProducts;
-};
+}
 
 // Export the 'scrape' functions as the default export of this module
 module.exports = {

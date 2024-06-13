@@ -69,76 +69,41 @@ function toDegrees(Value){
 // lon = longitude
 // rad = radius in km
 const searchDB = async (req, res) => {
-    console.log(req.headers);
-    var { str, dt, lat, lon, rad } = req.query;
-    console.log("searchDB(req.query %s)", req.query);
- 
     try {
-        dt = parseInt(dt);
-        lat = parseFloat(lat);
-        lon = parseFloat(lon);
-        rad = parseFloat(rad);
-    
-       var rexp = new RegExp(str, 'i'); // case insensitive
+        const { str, dt, lat, lon, rad } = req.query;
 
-        var d = new Date(Date.now());
-        d.setMinutes(d.getMinutes() - dt);
-        console.log(d);
-
-        var R = 6371.0;  // earth radius in km
-        var x1 = lon - toDegrees(rad/R/Math.cos(toRad(lat)));
-        var x2 = lon + toDegrees(rad/R/Math.cos(toRad(lat)));
-        var y1 = lat + toDegrees(rad/R);
-        var y2 = lat - toDegrees(rad/R);
-
-        console.log(x1);    //-79.98768371480365
-        console.log(x2);    //-78.74346888519635
-        console.log(y1);    //44.16329898277192
-        console.log(y2);    //43.26397661722808
-        //"path":{"location":{"lon":-79.3655763,"lat":43.7136378
-
-        // {"path":{"location":{"lon":-79.5868812,"lat":43.67995519999999},"radius":50000,"store":
-        // "ProSkaters Place Skate and Ski Shop","search":"CCM roller skates"},"_id":"65da78a6af5981f
-        // f09729a6a","name":"CCM Tacks AS 570 Roller Hockey Skates | SkatePro","price":"0","image":
-        // "https://cdn.skatepro.com/product/520/ccm-tacks-as-570-roller-hockey-skates-p3.webp","link":
-        // "https://www.skatepro.com/en-us/123-49548.htm","method":"google API places","createdAt":
-        // "2024-02-24T23:15:50.751Z","updatedAt":"2024-02-24T23:15:50.751Z","__v":0}
-
-        // {"path":{"location":{"lon":-112.0639759,"lat":33.611},"radius":1000,"store":"walmart",
-        // "search":"pants"},"_id":"6543d3e332f815c9b8e14fc1","name":"Tailored Wide Leg Pants For Women 
-        // Belt Less High Waisted Wide Leg Trousers Straight Leg Relaxed Style Trousers Trousers Blue 
-        // Women'S Pants Plus Size L","price":"$8.99","image": "https://encrypted-tbn2.gstatic.com/
-        // shopping?q=tbn:ANd9GcRa8vp-xRFgoemuDoWnoYDmlmM1SKcb0lxqkYTqg7WkxPbZ4Mnu2s1dnssR4Icu4dxPv7nMouu
-        // jynd5vhAWTNu0ip1JvRx_00ys2pJN05M&usqp=CAE","link":"https://www.google.com/aclk?sa=l&ai=DChcSEwiF
-        // -ZGkl56CAxXC6OMHHRWZCDAYABAVGgJ5bQ&gclid=EAIaIQobChMIhfmRpJeeggMVwujjBx0VmQgwEAsYBSABEgI2nfD_BwE&
-        // sig=AOD64_3hX34iW1xw5ed_vMydqhfkm5TsNg&ctype=5&q=&ved=0ahUKEwiXq4ekl56CAxU1mokEHUS7CBEQ9A4I4g0&ad
-        // url=","method":"google_shopping","createdAt":"2023-11-02T16:52:51.186Z","updatedAt":
-        // "2023-11-02T16:52:51.186Z","__v":0}
-
-        const items = await Item.find({ name: rexp, updatedAt: { $gte: d.toISOString() }, 'path.location.lon': { $gte: x1 }, 'path.location.lon2': { $lte: x2 }, 'path.location.lat': { $lte: y1 }, 'path.location.lat2': { $gte: y2 } });
-        console.log("searchDB() %d items found\n",items.length);
-        
-        // show the first 'item' in the list from the DB query (reference example format)
-        if(items.length>0)
-            console.log(items[0]);
-
-        // todo: determine a threshold
-        // if there are less than 10 results of this QUERY in the database, start scraping for more
-        if(items.length<10){
-            console.log("searchDB() - not enough items in DB, trigger scraping!")
-            // send a message to the child - in this case the number from URL
-            const child = fork('./controllers/scrape.js')
-            child.send(req.query);
+        if (!str || isNaN(dt) || isNaN(lat) || isNaN(lon) || isNaN(rad)) {
+            return res.status(400).json({ error: "Invalid input parameters" });
         }
 
-        res.status(200).json(items); // turn the array of results from the DB into JSON
+        const dateTimeLimit = new Date();
+        dateTimeLimit.setMinutes(dateTimeLimit.getMinutes() - parseInt(dt));
+
+        const items = await Item.find({
+            name: { $regex: new RegExp(str, 'i') },
+            updatedAt: { $gte: dateTimeLimit.toISOString() },
+            'path.location': {
+                $geoWithin: {
+                    $centerSphere: [[parseFloat(lon), parseFloat(lat)], parseFloat(rad) / 6371.0]
+                }
+            }
+        });
+
+        if (items.length < 10) {
+            const child = fork('./controllers/scrape.js');
+            child.send(req.query); // trigger scraping asynchronously
+            // Fetch default items or cached results
+            items = await Item.find().limit(10);
+        }
+
+        res.json(items);
 
     } catch (error) {
         console.error('Error retrieving items:', error);
         res.status(500).json({ error: 'Failed to fetch items' });
     }
+};
 
-}
 
 // get all items
 const getItems = async (req, res) =>{
