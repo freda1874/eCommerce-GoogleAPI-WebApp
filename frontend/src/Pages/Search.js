@@ -1,8 +1,7 @@
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useCallback} from 'react'
 import { useLocation } from 'react-router-dom';
 import SearchBar from '../components/SearchBar.js'
 import ItemDetails from '../components/itemDetails';
-import Sorter from '../components/sorter';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Search = () => {
@@ -10,31 +9,31 @@ const Search = () => {
     const location = useLocation();
     const { state } = location;
 
-    const fetchItems = async () => {
-        var item = state.search;
+    const fetchItems = useCallback(async () => {
+        const item = state.search;
         console.log(item);
-        var rad = state.rad;
-        // call searchDB from itemController with deltaTime to be the last two weeks
-        // 14*24*60=17280
+        const rad = state.rad;
         const response = await fetch(`/db/items/searchDB?str=${item}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
-        const json = await response.json()
+        const json = await response.json();
         if (response.ok) {
-            setItems(json)
+            setItems(json);
         }
-    }
-
-    const debugCalls = async (radius) => {
-        console.log("Search.js - Called from interval");
-        fetchItems();
-    }
-
-    setInterval(debugCalls, 300000);
+    }, [state]);
 
     useEffect(() => {
         console.log("Search.js - Called from useEffect");
         fetchItems();
-    }, [state])
+    }, [fetchItems]);
 
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            console.log("Search.js - Called from interval");
+            fetchItems();
+        }, 300000); // 300000 ms or 5 minutes
+
+        // Clear interval on component unmount
+        return () => clearInterval(intervalId);
+    }, [fetchItems]);
     return (
     <div className="search-page">
     <SearchBar />

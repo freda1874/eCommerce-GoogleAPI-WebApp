@@ -15,7 +15,7 @@ const SearchBar = () => {
   return (
 <div className="container">
 <div className="row">
-    <form className="form-group"
+    <form 
       className="search search-form"
       onSubmit={(e) => {
         searchItems(e);

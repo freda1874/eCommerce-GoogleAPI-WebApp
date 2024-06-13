@@ -79,7 +79,7 @@ const searchDB = async (req, res) => {
         lon = parseFloat(lon);
         rad = parseFloat(rad);
     
-        rexp = new RegExp(str, 'i'); // case insensitive
+       var rexp = new RegExp(str, 'i'); // case insensitive
 
         var d = new Date(Date.now());
         d.setMinutes(d.getMinutes() - dt);
@@ -115,7 +115,7 @@ const searchDB = async (req, res) => {
         // url=","method":"google_shopping","createdAt":"2023-11-02T16:52:51.186Z","updatedAt":
         // "2023-11-02T16:52:51.186Z","__v":0}
 
-        const items = await Item.find({ name: rexp, updatedAt: { $gte: d.toISOString() }, 'path.location.lon': { $gte: x1 }, 'path.location.lon': { $lte: x2 }, 'path.location.lat': { $lte: y1 }, 'path.location.lat': { $gte: y2 } });
+        const items = await Item.find({ name: rexp, updatedAt: { $gte: d.toISOString() }, 'path.location.lon': { $gte: x1 }, 'path.location.lon2': { $lte: x2 }, 'path.location.lat': { $lte: y1 }, 'path.location.lat2': { $gte: y2 } });
         console.log("searchDB() %d items found\n",items.length);
         
         // show the first 'item' in the list from the DB query (reference example format)
@@ -470,7 +470,6 @@ module.exports = {
     updateItem,
     addTestItem,
     searchDB,
-    createItem,
     getDBSearch,
     getSynonyms
 }
