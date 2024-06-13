@@ -2,17 +2,12 @@ import { createContext, useState } from "react";
 import { App, Credentials } from "realm-web";
 import { APP_ID } from "../realm/mongoApp";
 
-
 const app = new App(APP_ID);
-
 
 export const UserContext = createContext();
 
-
 export const UserProvider = ({ children }) => {
-
   const [user, setUser] = useState(null);
-
 
   const emailPasswordLogin = async (email, password) => {
     const credentials = Credentials.emailPassword(email, password);
@@ -25,6 +20,15 @@ export const UserProvider = ({ children }) => {
     }
   };
 
+  
+  const emailPasswordSignup = async (email, password) => {
+    try {
+      await app.emailPasswordAuth.registerUser({ email, password });
+      return await emailPasswordLogin(email, password); 
+    } catch (error) {
+      throw error;
+    }
+  };
 
   const fetchUser = async () => {
     if (!app.currentUser) return false;
@@ -37,7 +41,6 @@ export const UserProvider = ({ children }) => {
     }
   };
 
-
   const logOutUser = async () => {
     if (!app.currentUser) return false;
     try {
@@ -49,10 +52,9 @@ export const UserProvider = ({ children }) => {
     }
   };
 
-
   return (
     <UserContext.Provider
-      value={{ user, setUser, fetchUser, emailPasswordLogin, logOutUser }}
+      value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser }}
     >
       {children}
     </UserContext.Provider>

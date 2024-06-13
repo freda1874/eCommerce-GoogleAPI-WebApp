@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.20",
     "@react-google-maps/api": "^2.19.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +22,9 @@
     "react-geocode": "^0.2.3",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.13.0",
+    "react-toastify": "^10.0.5",
     "reactstrap": "^9.2.0",
+    "realm-web": "^2.0.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {

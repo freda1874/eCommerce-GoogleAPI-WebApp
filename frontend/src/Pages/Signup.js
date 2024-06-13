@@ -1,59 +1,44 @@
 import { Button, TextField, Typography } from "@mui/material";
-import { useContext, useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserContext } from "../contexts/user";
 
-const Login = () => {
+const Signup = () => {
   const navigate = useNavigate();
-  const location = useLocation();
-  const { user, fetchUser, emailPasswordLogin } = useContext(UserContext);
+  const { emailPasswordSignup } = useContext(UserContext);
 
   const [form, setForm] = useState({
     email: "",
-    password: ""
+    password: "",
+    confirmPassword: ""
   });
+
+  const [error, setError] = useState("");
 
   const onFormInputChange = (event) => {
     const { name, value } = event.target;
     setForm({ ...form, [name]: value });
-  };
-
-  const redirectNow = () => {
-    const redirectTo = new URLSearchParams(location.search).get("redirectTo");
-    navigate(redirectTo ? redirectTo : "/");
-  };
-
-  // if the user is already logged in, redirect
-  const loadUser = async () => {
-    if (!user) {
-      const fetchedUser = await fetchUser();
-      if (fetchedUser) {
-        redirectNow();
-      }
+    if (name === "confirmPassword" || name === "password") {
+      setError(""); 
     }
   };
 
-  useEffect(() => {
-    loadUser();
-  }, []);
-
-  // Login button.
   const onSubmit = async (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
+    if (form.password !== form.confirmPassword) {
+      setError("Passwords do not match!");
+      return;
+    }
     try {
-      const user = await emailPasswordLogin(form.email, form.password);
+      const user = await emailPasswordSignup(form.email, form.password);
       if (user) {
-        toast.success("Login successful!");
-        redirectNow();
+        toast.success("Registration successful!");
+        navigate("/");
       }
     } catch (error) {
-      if (error.statusCode === 401) {
-        toast.error("Invalid username/password. Try again!");
-      } else {
-        toast.error("Failed to log in: " + error.message);
-      }
+      toast.error("Failed to sign up: " + error.message);
     }
   };
 
@@ -61,7 +46,7 @@ const Login = () => {
     <>
       <ToastContainer />
       <form style={{ display: "flex", flexDirection: "column", maxWidth: "300px", margin: "auto" }} onSubmit={onSubmit}>
-        <h1>User Login</h1>
+        <h1>User Signup</h1>
         <TextField
           label="Email"
           type="email"
@@ -81,13 +66,30 @@ const Login = () => {
           onChange={onFormInputChange}
           style={{ marginBottom: "1rem" }}
           required
+          error={!!error}
         />
+        <TextField
+          label="Confirm Password"
+          type="password"
+          variant="outlined"
+          name="confirmPassword"
+          value={form.confirmPassword}
+          onChange={onFormInputChange}
+          style={{ marginBottom: "1rem" }}
+          required
+          error={!!error}
+        />
+        {error && (
+          <Typography color="error" style={{ marginBottom: "1rem" }}>
+            {error}
+          </Typography>
+        )}
         <Button variant="contained" color="primary" type="submit">
-          Login
+          Sign Up
         </Button>
       </form>
     </>
   );
 };
 
-export default Login;
+export default Signup;
