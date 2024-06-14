@@ -12,7 +12,7 @@ const ItemDetails = ({ itemModel }) => {
         </div>
         <div className="item-info">
           <h4 className="item-title">{itemModel.name.slice(0,20)}</h4>
-          <p className="item-price"><strong>Price: </strong>{itemModel.price}</p>
+          {/* <p className="item-price"><strong>Price: </strong>{itemModel.price}</p> */}
         </div>
       </a>
     </div>

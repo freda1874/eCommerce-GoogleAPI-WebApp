@@ -285,15 +285,14 @@ function scrubPrice(s) {
  * const longitude = -122.4194;
  * const radius = 5000;
  * searchbylocation(item, latitude, longitude, radius);
- */
-function searchbylocation(item, latitude, longitude, radius) {
+ */function searchbylocation(item, latitude, longitude, radius) {
     console.log("searchbylocation()\n");
 
     try {
         logger.loggerPost(`searchbylocation(${item},${latitude},${longitude},${radius})`);
 
         // check the 'item' to ensure it is character or spaces
-        const regex = new RegExp("^[a-zA-Z ]{0,255}$");
+        const regex = new RegExp("^[a-zA-Z0-9 ,.]{0,255}$"); // Allows letters, numbers, spaces, commas, and periods
         console.log(regex);
         console.log(regex.test(item));
 
@@ -302,8 +301,7 @@ function searchbylocation(item, latitude, longitude, radius) {
             throw new Error("ERROR!!! searchbylocation() - requested item is invalid!");
         }
 
-        
-        const pth = new String('/maps/api/place/textsearch/json?query=' + encodeURIComponent(item) + '&location=' + latitude + ',' + longitude + '&radius=' + radius + '&type=store&key=' + GOOGLE_apikey);
+        const pth = `/maps/api/place/textsearch/json?query=${encodeURIComponent(item)}&location=${latitude},${longitude}&radius=${radius}&type=store&key=${GOOGLE_apikey}`;
         console.log("searchbylocation() pth->%s\n", pth);
 
         // Make an HTTPS request to the Google Places API
@@ -319,63 +317,40 @@ function searchbylocation(item, latitude, longitude, radius) {
             });
 
             // Process the API response
-            response.on('end', async (done) => {
+            response.on('end', async () => {
                 const body = JSON.parse(data);
 
-                if (body.status != "OK") {
+                if (body.status !== "OK") {
                     console.log("searchbylocation() *** Bad status ***");
                     console.log(body);
                     logger.loggerPost(`searchbylocation() BAD BODY: ${body}`);
-
                 }
 
-                if (body['results'].length > 0 && body.status == 'OK') {
-                    // Process each result and perform image scraping
-
-                    //console.log("searchbylocation() body['results']=%s\n", body['results']);
-
-                    var maxResults = body['results'].length;
-                    //console.log("searchbylocation() pre.maxResults=%d\n", maxResults);
-
-                    if (maxResults > 50)
-                        maxResults = 50;
-
-                    //console.log("searchbylocation() post.maxResults=%d\n", maxResults);
+                if (body['results'].length > 0 && body.status === 'OK') {
+                    var maxResults = Math.min(body['results'].length, 50);
 
                     for (var i = 0; i < maxResults; i++) {
-                        //console.log("searchbylocation() body['results'][%d]=%s\n", i, body['results'][i]);
-
-                        body.results[i].geometry.location.lon = body.results[i].geometry.location.lng; // lng rather than lon from Google API
+                        body.results[i].geometry.location.lon = body.results[i].geometry.location.lng;
                         body.results[i].radius = radius;
                         body.results[i].item = item;
 
-                        body.results[i].scraped = await scrapeImage(item + ' ' + body.results[i].name);
-
+                        body.results[i].scraped = await scrapeImage(`${item} ${body.results[i].name}`);
                         console.log("searchbylocation() body.results[%d] => %s\n", i, body.results[i]);
 
                         await saveItems(body.results[i]);
-
-                        //logger.loggerPost(`searchbylocation() saveItems: ${body.results[i]}`);
                     }
-
                 } else {
                     console.log("searchbylocation() -> nothing found!");
                 }
 
-                // Save the scraped data
-                //saveScrapedData(body);
-                //logger.loggerPost(`searchbylocation() saveScrapedData: ${body}`);
-
                 console.log("searchbylocation() Successful, done!!!\n");
             });
-        })
+        });
 
-        // Handle HTTPS request errors
         request.on('error', (error) => {
             console.log('searchbylocation() An error', error);
         });
 
-        // Send the HTTPS request
         request.end();
 
         console.log("searchbylocation() *** HTTP REQUEST POSTED *** ");
@@ -384,6 +359,7 @@ function searchbylocation(item, latitude, longitude, radius) {
         console.error(error);
     }
 }
+
 
 /**
  * @file scrape.js

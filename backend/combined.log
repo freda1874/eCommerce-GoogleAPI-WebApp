@@ -1158,3 +1158,255 @@
 {"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:40:50"}
 {"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:40:54"}
 {"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:40:58"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:08"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:20"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:22"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:22"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:29"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:39"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:44"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:44"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:45"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:46"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:46"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:47"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:42:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:51"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:42:57"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:09"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:43:12"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:43:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:12"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:14"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,9)","service":"shopful-logger","timestamp":"2024-06-13 10:43:17"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,9)","service":"shopful-logger","timestamp":"2024-06-13 10:43:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"searchbylocation(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"searchbylocation_SERPAPI(shirt,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:20"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:43:23"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:43:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:26"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:32"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:41"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:44"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Shirt Factory Sweden | Official Online Shop - Shirtfactory.se\",\"price\":0,\"image\":\"https://www.shirtfactory.se/pub/images/startsida/AW17/skjorta_the_shirt_factory_liten.jpg\",\"link\":\"https://www.shirtfactory.se/en\",\"path\":{\"location\":{\"lat\":43.6694757,\"lon\":-79.3389431},\"radius\":\"15\",\"store\":\"The Shirt factory\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Shirt Factory Sweden | Official Online Shop - Shirtfactory.se\",\"price\":0,\"image\":\"https://www.shirtfactory.se/pub/images/startsida/2017/vara-butiker_2x-k.jpg\",\"link\":\"https://www.shirtfactory.se/en\",\"path\":{\"location\":{\"lat\":43.6694757,\"lon\":-79.3389431},\"radius\":\"15\",\"store\":\"The Shirt factory\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Shirt Factory | Glens Falls NY\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064692700768\",\"link\":\"https://www.facebook.com/shirtfactory/\",\"path\":{\"location\":{\"lat\":43.6694757,\"lon\":-79.3389431},\"radius\":\"15\",\"store\":\"The Shirt factory\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:45"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Custom printed Running & Cycling available at Stitchy Lizard in Toronto,  Ontario & Montréal, Québec.\",\"price\":0,\"image\":\"https://cdn.stitchylizard.com/catalog/product/cache/1/image/720x660/9df78eab33525d08d6e5fb8d27136e95/z/c/zc162-design-c1515-644x526.jpg\",\"link\":\"https://stitchylizard.com/cycling-sublimated-c1515.html\",\"path\":{\"location\":{\"lat\":43.7081873,\"lon\":-79.3567365},\"radius\":\"15\",\"store\":\"Stitchy Lizard\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Stitchy Lizard | Toronto ON\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=469546611851604\",\"link\":\"https://www.facebook.com/stitchylizard/\",\"path\":{\"location\":{\"lat\":43.7081873,\"lon\":-79.3567365},\"radius\":\"15\",\"store\":\"Stitchy Lizard\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Custom Embroidered / Screen printed / Sublimated Curling Shirts/ Jerseys  available at Stitchy Lizard in Toronto, Ontario & Montréal, Québec.\",\"price\":0,\"image\":\"https://cdn.stitchylizard.com/catalog/product/cache/1/image/720x660/9df78eab33525d08d6e5fb8d27136e95/f/a/fairmount.png\",\"link\":\"https://stitchylizard.com/curling-mens-shirt-fairmount.html\",\"path\":{\"location\":{\"lat\":43.7081873,\"lon\":-79.3567365},\"radius\":\"15\",\"store\":\"Stitchy Lizard\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:46"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Fun Time Print | Promotional Products & Apparel | Toronto, ON M3J 2W7: HOME\",\"price\":0,\"image\":\"https://www.funtimeprint.com/we/we.dll/LinkPic?Rec=119661&W=1000&H=1000&Size=107790\",\"link\":\"https://www.funtimeprint.com/\",\"path\":{\"location\":{\"lat\":43.7077055,\"lon\":-79.3949098},\"radius\":\"15\",\"store\":\"Fun Time Print\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Fun Time Print | Promotional Products & Apparel | Toronto, ON M3J 2W7:  Gildan® Heavy Cotton™ T-Shirt\",\"price\":0,\"image\":\"https://www.funtimeprint.com/ws/ws.dll/QPic?SN=68391&P=303014781&PX=400\",\"link\":\"https://www.funtimeprint.com/pd/RFNHL-YCYZP/adult-gildan-heavy-cotton-t-shirt\",\"path\":{\"location\":{\"lat\":43.7077055,\"lon\":-79.3949098},\"radius\":\"15\",\"store\":\"Fun Time Print\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Thats A Horrible Idea What Time T Shirt Womens Cute Funny Saying Letter  Print Party Shirt Graphic Tee Tops, Green, Small : Amazon.ca: Clothing,  Shoes & Accessories\",\"price\":0,\"image\":\"https://m.media-amazon.com/images/I/711UfsvIyjL._AC_UY1000_.jpg\",\"link\":\"https://www.amazon.ca/Calvin-Horrible-Womens-Causal-Graphic/dp/B08HXD7G3F\",\"path\":{\"location\":{\"lat\":43.7077055,\"lon\":-79.3949098},\"radius\":\"15\",\"store\":\"Fun Time Print\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:54"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:55"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:56"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:43:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:01"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:02"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:06"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:06"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:07"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:10"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:11"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:12"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Genesis II | Clothing and promotions for businesses and organizations.\",\"price\":0,\"image\":\"https://genesis2.ca/img/apparel.jpg\",\"link\":\"https://genesis2.ca/\",\"path\":{\"location\":{\"lat\":43.6688965,\"lon\":-79.3894107},\"radius\":\"15\",\"store\":\"Genesis 2 Clothing and Promotions\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Clothing | Genesis II | T-shirts, jackets, hoodies and more embroidered or  screen printed with your logo.\",\"price\":0,\"image\":\"https://genesis2.ca/img/golf.jpg\",\"link\":\"https://genesis2.ca/apparel.php\",\"path\":{\"location\":{\"lat\":43.6688965,\"lon\":-79.3894107},\"radius\":\"15\",\"store\":\"Genesis 2 Clothing and Promotions\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:13"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Clothing | Genesis II | T-shirts, jackets, hoodies and more embroidered or  screen printed with your logo.\",\"price\":0,\"image\":\"https://genesis2.ca/img/tshirts.jpg\",\"link\":\"https://genesis2.ca/apparel.php\",\"path\":{\"location\":{\"lat\":43.6688965,\"lon\":-79.3894107},\"radius\":\"15\",\"store\":\"Genesis 2 Clothing and Promotions\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:14"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:16"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:18"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:19"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:20"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:21"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:23"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:24"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:25"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:28"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> {\"name\":\"T-shirt - Six Finest\",\"price\":0,\"image\":\"https://sixfinest.com/wp-content/uploads/2022/10/tshirt-2.png\",\"link\":\"https://sixfinest.com/product/custom-t-shirt/\",\"path\":{\"location\":{\"lat\":43.74258529999999,\"lon\":-79.4349513},\"radius\":\"9\",\"store\":\"Six Finest\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Toronto's Finest by 6ixset – Crewneck T-Shirt – Multiple Colours – 6ixset –  Apparel and Design\",\"price\":0,\"image\":\"https://www.6ixset.com/wp-content/uploads/2017/09/torontos-finest-black-logo-on-white-t-shirt.jpg\",\"link\":\"https://www.6ixset.com/shop/our-collections/torontos-finest/torontos-finest-6ixset-crewneck-t-shirt-multiple-colours/\",\"path\":{\"location\":{\"lat\":43.74258529999999,\"lon\":-79.4349513},\"radius\":\"9\",\"store\":\"Six Finest\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Six Finest | Toronto ON\",\"price\":0,\"image\":\"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=968405611956364\",\"link\":\"https://www.facebook.com/sixfinest/\",\"path\":{\"location\":{\"lat\":43.74258529999999,\"lon\":-79.4349513},\"radius\":\"9\",\"store\":\"Six Finest\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:29"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:30"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:31"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:34"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:35"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Woof Wear-Performance Riding Shirt\",\"price\":0,\"image\":\"https://www.woofwear.com/images/thumbs/0004277_Navy%20Performance%20Shirt.jpeg\",\"link\":\"https://www.woofwear.com/performance-riding-shirt\",\"path\":{\"location\":{\"lat\":43.7074592,\"lon\":-79.3411931},\"radius\":\"15\",\"store\":\"Woof Wear Co.\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Woof Wear Performance Shirt | tackshop.co.nz\",\"price\":0,\"image\":\"https://static.wixstatic.com/media/7faa8d_e274e36462f44f9797fcd03600a2a133~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7faa8d_e274e36462f44f9797fcd03600a2a133~mv2.jpg\",\"link\":\"https://www.tackshop.co.nz/product-page/woof-wear-performance-shirt\",\"path\":{\"location\":{\"lat\":43.7074592,\"lon\":-79.3411931},\"radius\":\"15\",\"store\":\"Woof Wear Co.\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Woof Wear Performance Riding Shirt Fusion - Eileen Douglas Tack Shops Ltd\",\"price\":0,\"image\":\"https://www.tackshop.co.uk/wp-content/uploads/2018/07/0000009119.jpg\",\"link\":\"https://www.tackshop.co.uk/shop/for-the-rider/leisure-wear/polos-tops/woof-wear-performance-riding-shirt/\",\"path\":{\"location\":{\"lat\":43.7074592,\"lon\":-79.3411931},\"radius\":\"15\",\"store\":\"Woof Wear Co.\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:36"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:40"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:41"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:42"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:47"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:48"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:48"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:44:50"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:44:50"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:52"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:53"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:58"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:44:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:04"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:08"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"T-Shirt Guys - Custom Printed Shirts in Downtown Toronto\",\"price\":0,\"image\":\"https://www.tshirtguys.ca/wp-content/uploads/2023/04/Logo.png\",\"link\":\"https://www.tshirtguys.ca/\",\"path\":{\"location\":{\"lat\":43.7577633,\"lon\":-79.3610052},\"radius\":\"15\",\"store\":\"Shirt Maker in Toronto Canada\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"The Best T-Shirt Printing in Toronto, ON | Design Online | Coastal Reign\",\"price\":0,\"image\":\"https://image.coastalreign.com/IMG_3718_1682529558380.jpg\",\"link\":\"https://coastalreign.com/custom-products/custom-clothing/t-shirts/toronto-on\",\"path\":{\"location\":{\"lat\":43.7577633,\"lon\":-79.3610052},\"radius\":\"15\",\"store\":\"Shirt Maker in Toronto Canada\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"saveItems() -> {\"name\":\"T Shirt Printing Toronto ON | Rain Coast Print Shop\",\"price\":0,\"image\":\"https://www.raincoastvictoriascreenprinting.com/wp-content/uploads/2018/11/tam100kb.jpg\",\"link\":\"https://www.raincoastvictoriascreenprinting.com/t-shirt-printing-toronto-on/\",\"path\":{\"location\":{\"lat\":43.7577633,\"lon\":-79.3610052},\"radius\":\"15\",\"store\":\"Shirt Maker in Toronto Canada\",\"search\":\"shirt\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:13"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 10:45:14"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:58:34"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 10:58:34"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 11:03:34"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 11:03:34"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 11:08:34"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 11:08:34"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:29:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:29:05"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:34:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:34:05"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:39:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:39:05"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:44:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:44:05"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:49:05"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:49:05"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:54:08"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 12:54:08"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:09:38"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:09:38"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:16:03"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:16:03"}
+{"level":"info","message":"searchbylocation(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:16:49"}
+{"level":"info","message":"searchbylocation_SERPAPI(/,43.7136378,-79.3655763,30)","service":"shopful-logger","timestamp":"2024-06-13 13:16:49"}
+{"level":"info","message":"searchbylocation(pants,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 13:17:59"}
+{"level":"info","message":"searchbylocation_SERPAPI(pants,43.7136378,-79.3655763,15)","service":"shopful-logger","timestamp":"2024-06-13 13:17:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 13:18:00"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 13:18:09"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 13:18:15"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-06-13 13:18:19"}
