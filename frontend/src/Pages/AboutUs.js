@@ -6,7 +6,7 @@ const AboutUs = () => {
     return (
         <div className="home">
             <LocationEnabler />
-            <div className="blog-para">
+            <div className="about-para">
       <h2>About Shopful</h2>
       <p>Welcome to Shopful, the revolutionary search engine designed exclusively for shopaholics! Our cutting-edge platform is your ultimate 
         destination for seamless shopping exploration, making the quest for your dream products a breeze. With a vast database of items from countless 
