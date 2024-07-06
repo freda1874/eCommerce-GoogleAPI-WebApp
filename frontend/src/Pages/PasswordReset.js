@@ -5,10 +5,11 @@ import "react-toastify/dist/ReactToastify.css";
 import { UserContext } from "../contexts/user";
 import { useNavigate } from "react-router-dom";
 
+
 const PasswordReset = () => {
   const navigate = useNavigate();
   const { user, resetPassword } = useContext(UserContext);
-
+  
   const [form, setForm] = useState({
     oldPassword: "",
     newPassword: "",
@@ -29,6 +30,10 @@ const PasswordReset = () => {
     event.preventDefault();
     if (form.newPassword !== form.confirmNewPassword) {
       setError("New passwords do not match!");
+      return;
+    }
+    if (!user || !user.profile || !user.profile.email) {
+      toast.error("User is not logged in or user profile is incomplete.");
       return;
     }
     try {
@@ -82,7 +87,7 @@ const PasswordReset = () => {
           </Typography>
         )}
         <Button variant="contained" color="primary" type="submit">
-            Password reset
+          Password reset
         </Button>
       </form>
     </>

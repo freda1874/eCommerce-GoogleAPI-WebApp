@@ -13,6 +13,7 @@ export const UserProvider = ({ children }) => {
     const credentials = Credentials.emailPassword(email, password);
     try {
       const authenticatedUser = await app.logIn(credentials);
+      console.log("Authenticated User:", authenticatedUser);
       setUser(authenticatedUser);
       return authenticatedUser;
     } catch (error) {
@@ -65,7 +66,7 @@ export const UserProvider = ({ children }) => {
 
   return (
     <UserContext.Provider
-      value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser }}
+      value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser, resetPassword }}
     >
       {children}
     </UserContext.Provider>
