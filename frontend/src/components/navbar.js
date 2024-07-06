@@ -133,8 +133,12 @@ import { Popover, Typography, Button } from "@mui/material";
 import { useState } from "react";
 import { UserContext } from "../contexts/user";
 import shopfulLogo from "./pictures/shopful.png";
+import { useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
+  
+  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState(null);
   const { user, logOutUser } = useContext(UserContext);
 
@@ -149,6 +153,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     await logOutUser();
     handleClose();
+    navigate("/");
   };
 
   const open = Boolean(anchorEl);
@@ -213,6 +218,18 @@ const Navbar = () => {
                   >
                     Logout
                   </Button>
+                <div style={{ marginTop: "1rem" }}>
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    component={Link}
+                    to="/password-reset"
+                    style={{ marginBottom: "1rem", color: "white" }}
+                  >
+                    Password Reset
+                  </Button>
+                </div>
+
                 </>
               ) : (
                 <>

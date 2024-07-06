@@ -52,6 +52,17 @@ export const UserProvider = ({ children }) => {
     }
   };
 
+  const resetPassword = async (email, oldPassword, newPassword) => {
+    if (!app.currentUser) throw new Error("User is not logged in");
+    try {
+      await app.currentUser.changePassword(oldPassword, newPassword);
+      return true;
+    } catch (error) {
+      throw error;
+    }
+  };
+  
+
   return (
     <UserContext.Provider
       value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser }}
