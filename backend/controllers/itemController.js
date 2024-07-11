@@ -131,6 +131,11 @@ const searchDB = async (req, res) => {
             child.send(req.query);
         }
 
+        // Show a failed to find notification letting the user know scraping has failed to find any items
+        if(items.length === 0){
+            console.log("No items found.")
+        }
+
         res.status(200).json(items); // turn the array of results from the DB into JSON
 
     } catch (error) {
