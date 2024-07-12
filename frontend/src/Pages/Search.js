@@ -1,8 +1,7 @@
-import {useEffect, useState} from 'react'
+import { useEffect, useState, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
-import SearchBar from '../components/SearchBar.js'
+import SearchBar from '../components/SearchBar.js';
 import ItemDetails from '../components/itemDetails';
-import Sorter from '../components/sorter';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Search = () => {
@@ -10,51 +9,59 @@ const Search = () => {
     const location = useLocation();
     const { state } = location;
 
-    const fetchItems = async () => {
+    const fetchItems = useCallback(async () => {
         var item = state.search;
         console.log(item);
         var rad = state.rad;
-        // call searchDB from itemController with deltaTime to be the last two weeks
-        // 14*24*60=17280
         const response = await fetch(`/db/items/searchDB?str=${item}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
-        const json = await response.json()
+        const json = await response.json();
         if (response.ok) {
-            setItems(json)
+            setItems(json);
         }
-    }
+    }, [state.search, state.rad]);
 
-    const debugCalls = async (radius) => {
+    const debugCalls = async () => {
         console.log("Search.js - Called from interval");
         fetchItems();
     }
 
-    setInterval(debugCalls, 300000);
-
     useEffect(() => {
         console.log("Search.js - Called from useEffect");
+        const interval = setInterval(fetchItems, 300000);
         fetchItems();
-    }, [state])
+
+        return () => clearInterval(interval);
+    }, [fetchItems, state]);
 
     return (
-    <div className="search-page">
-    <SearchBar />
-    <div className="items-table">
-    <table>
-    <tbody>
-        {items &&
-        items.reduce((rows, item, index) => {
-            rows[rows.length - 1].push(
-            <tr key={item.id}>
-            <ItemDetails itemModel={item} />
-            </tr>
-            );
-            return rows;
-        }, [])}
-    </tbody>
-    </table>
-    </div>
-    </div>
-    )  
+        <div className="search-page" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <SearchBar />
+            <div className="items-table" style={{ width: '70%', marginTop: '20px' }}>
+                <table style={{ width: '100%' }}>
+                    <tbody>
+                        {items &&
+                            items.reduce((rows, item, index) => {
+                                if (index % 3 === 0) {
+                                    rows.push([]);
+                                }
+                                rows[rows.length - 1].push(
+                                    <td key={item.id} style={{ width: '33%' }}>
+                                        <ItemDetails itemModel={item} />
+                                    </td>
+                                );
+                                return rows;
+                            }, []).map((row, index) => (
+                                <tr key={index}>
+                                    {row}
+                                </tr>
+                            ))
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    );
+    
 }
-//
-export default Search
+
+export default Search;

@@ -16,8 +16,7 @@ const LocationEnabler = () => {
     // get the lat/long/addy from LocationGetter that calls GoogleAPI
     const { latitude, longitude, addy } = LocationGetter();
     // create the string with the given lat/long and GoogleAPI to display the map
-    const map_src = "https://www.google.com/maps/embed/v1/view?center=" + latitude + "," + longitude + "&zoom=12&key=AIzaSyBxONdCYn7fhUT-0aifzRBWkHZld9NRbDM";
-    
+    const map_src = `https://www.google.com/maps/embed/v1/view?center=${latitude},${longitude}&zoom=12&key=AIzaSyBxONdCYn7fhUT-0aifzRBWkHZld9NRbDM`;
     
   
   return (
@@ -37,6 +36,7 @@ const LocationEnabler = () => {
       )}
       <MapComponent longitude={longitude} latitude={latitude} />
       <iframe
+      title="Google Maps Location View"
         width="200"
         height="200"
         frameBorder="0"

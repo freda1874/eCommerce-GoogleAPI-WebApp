@@ -124,15 +124,37 @@
 // export default Navbar;
 
 
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { RxPerson } from "react-icons/rx";
 import { BsSearch } from "react-icons/bs";
+import { Popover, Typography, Button } from "@mui/material";
+import { useState } from "react";
+import { UserContext } from "../contexts/user";
 import shopfulLogo from "./pictures/shopful.png";
 import maplogo from "./pictures/maplogo.png";
 
 const Navbar = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+  const { user, logOutUser } = useContext(UserContext);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleLogout = async () => {
+    await logOutUser();
+    handleClose();
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? 'simple-popover' : undefined;
+
   return (
     <header style={headerStyle}>
       <div style={containerStyle}>
@@ -158,9 +180,56 @@ const Navbar = () => {
           ))}
         </nav>
         <div style={rightContainerStyle}>
-          <NavLink href="/cart" label="Cart" />
-          <NavLink href="/wishlist" label={<FaRegHeart />} />
-          <NavLink href="/profile" label={<RxPerson />} />
+          <Link to="/cart" style={linkStyle}>
+            Cart
+          </Link>
+          <Link to="/wishlist" style={linkStyle}>
+            <FaRegHeart />
+          </Link>
+          <Button
+            aria-describedby={id}
+            variant="contained"
+            onClick={handleClick}
+            style={buttonStyle}
+          >
+            <RxPerson />
+          </Button>
+          <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'center',
+            }}
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'center',
+            }}
+          >
+            <Typography sx={{ p: 2 }}>
+              {user ? (
+                <>
+                  <Typography>Welcome, {user.profile.email}</Typography>
+                  <Button 
+                    onClick={handleLogout} 
+                    variant="contained" 
+                    color="secondary" 
+                    style={{ marginTop: "1rem" }}
+                  >
+                    Logout
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <Link to="/login" style={popoverLinkStyle}>Login</Link>
+                  <br />
+                  <Link to="/signup" style={popoverLinkStyle}>Sign Up</Link>
+                </>
+              )}
+            </Typography>
+          </Popover>
           <div style={searchContainerStyle}>
             <input
               type="text"
@@ -175,11 +244,12 @@ const Navbar = () => {
   );
 };
 
+
 const headerStyle = {
   backgroundColor: "#A9F2D0",
   padding: "15px 0",
   color: "#333",
-  boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
+  boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)"
 };
 
 const containerStyle = {
@@ -187,12 +257,12 @@ const containerStyle = {
   justifyContent: "space-between",
   alignItems: "center",
   maxWidth: "1200px",
-  margin: "0 auto",
+  margin: "0 auto"
 };
 
 const logoStyle = {
   width: "100px",
-  height: "auto",
+  height: "auto"
 };
 
 const maplogoStyle = {
@@ -202,23 +272,36 @@ const maplogoStyle = {
 
 const navStyle = {
   display: "flex",
-  gap: "20px",
+  gap: "20px"
 };
 
 const linkStyle = {
   textDecoration: "none",
   color: "#333",
-  fontSize: "16px",
+  fontSize: "16px"
 };
 
 const rightContainerStyle = {
   display: "flex",
   alignItems: "center",
-  gap: "10px",
+  gap: "10px"
+};
+
+const buttonStyle = {
+  backgroundColor: "transparent",
+  color: "#333",
+  boxShadow: "none"
+};
+
+const popoverLinkStyle = {
+  textDecoration: "none",
+  color: "#333",
+  fontSize: "16px",
+  display: "block" 
 };
 
 const searchContainerStyle = {
-  display: "flex",
+  display: "flex"
 };
 
 const searchInputStyle = {
@@ -226,27 +309,23 @@ const searchInputStyle = {
   marginRight: "8px",
   border: "1px solid #ccc",
   borderRadius: "4px",
-  fontSize: "14px",
+  fontSize: "14px"
 };
 
 const searchIconStyle = {
   fontSize: "20px",
   cursor: "pointer",
-  marginTop: "15px"
+  marginTop: "4px" 
 };
 
-const NavLink = ({ href, label }) => (
-  <a href={href} style={linkStyle}>
-    {label}
-  </a>
-);
 
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/shop", label: "Shop" },
-  { to: "/about", label: "About Us" },
+  { to: "/aboutus", label: "About Us" },
   { to: "/blog", label: "Blog" },
-  { to: "/contact", label: "Contact Us" },
+  { to: "/contact", label: "Contact Us" }
 ];
 
 export default Navbar;
+
