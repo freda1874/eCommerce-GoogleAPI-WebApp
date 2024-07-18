@@ -133,7 +133,10 @@ import { Popover, Typography, Button } from "@mui/material";
 import { useState } from "react";
 import { UserContext } from "../contexts/user";
 import shopfulLogo from "./pictures/shopful.png";
+
 import { useNavigate } from "react-router-dom";
+
+import maplogo from "./pictures/maplogo.png";
 
 
 const Navbar = () => {
@@ -163,6 +166,12 @@ const Navbar = () => {
     <header style={headerStyle}>
       <div style={containerStyle}>
         <Link to="/">
+          <img
+            className="map-logo"
+            src={maplogo}
+            alt="maplogo"
+            style={maplogoStyle}
+            />
           <img
             className="logo-image"
             src={shopfulLogo}
@@ -256,7 +265,7 @@ const Navbar = () => {
 
 
 const headerStyle = {
-  backgroundColor: "#f8f8f8",
+  backgroundColor: "#A9F2D0",
   padding: "15px 0",
   color: "#333",
   boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)"
@@ -274,6 +283,11 @@ const logoStyle = {
   width: "100px",
   height: "auto"
 };
+
+const maplogoStyle = {
+  width: "40px",
+  height: "auto",
+}
 
 const navStyle = {
   display: "flex",

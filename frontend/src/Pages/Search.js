@@ -1,15 +1,17 @@
-import { useEffect, useState, useCallback } from 'react';
-import { useLocation } from 'react-router-dom';
-import SearchBar from '../components/SearchBar.js';
-import ItemDetails from '../components/itemDetails';
-import 'bootstrap/dist/css/bootstrap.css';
+import { useEffect, useState, useCallback } from "react";
+import { useLocation } from "react-router-dom";
+import SearchBar from "../components/SearchBar.js";
+import ItemDetails from "../components/itemDetails";
+import "bootstrap/dist/css/bootstrap.css";
 
 const Search = () => {
     const [items, setItems] = useState(null);
     const location = useLocation();
     const { state } = location;
+    const [loading, setLoading] = useState(false);
 
     const fetchItems = useCallback(async () => {
+        setLoading(true);
         var item = state.search;
         console.log(item);
         var rad = state.rad;
@@ -17,51 +19,51 @@ const Search = () => {
         const json = await response.json();
         if (response.ok) {
             setItems(json);
-        }
-    }, [state.search, state.rad]);
 
-    const debugCalls = async () => {
-        console.log("Search.js - Called from interval");
-        fetchItems();
-    }
+        }
+        setLoading(false);
+    }, [state.search, state.rad]);
 
     useEffect(() => {
         console.log("Search.js - Called from useEffect");
-        const interval = setInterval(fetchItems, 300000);
         fetchItems();
+        const interval = setInterval(fetchItems, 200000);
+
 
         return () => clearInterval(interval);
-    }, [fetchItems, state]);
-
+    }, [fetchItems]);
     return (
         <div className="search-page" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <SearchBar />
-            <div className="items-table" style={{ width: '70%', marginTop: '20px' }}>
-                <table style={{ width: '100%' }}>
-                    <tbody>
-                        {items &&
-                            items.reduce((rows, item, index) => {
-                                if (index % 3 === 0) {
-                                    rows.push([]);
-                                }
-                                rows[rows.length - 1].push(
-                                    <td key={item.id} style={{ width: '33%' }}>
-                                        <ItemDetails itemModel={item} />
-                                    </td>
-                                );
-                                return rows;
-                            }, []).map((row, index) => (
-                                <tr key={index}>
-                                    {row}
-                                </tr>
-                            ))
-                        }
-                    </tbody>
-                </table>
-            </div>
+            {loading && items ? (
+                <div>Loading， please wait a few seconds...</div>
+            ) : (
+                <div className="items-table" style={{ width: '70%', marginTop: '20px' }}>
+                    <table style={{ width: '100%' }}>
+                        <tbody>
+                            {items &&
+                                items.reduce((rows, item, index) => {
+                                    if (index % 3 === 0) {
+                                        rows.push([]);
+                                    }
+                                    rows[rows.length - 1].push(
+                                        <td key={item.id} style={{ width: '33%' }}>
+                                            <ItemDetails itemModel={item} />
+                                        </td>
+                                    );
+                                    return rows;
+                                }, []).map((row, index) => (
+                                    <tr key={index}>
+                                        {row}
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            )}
         </div>
     );
-    
 }
 
 export default Search;
