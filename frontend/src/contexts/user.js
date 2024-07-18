@@ -13,6 +13,7 @@ export const UserProvider = ({ children }) => {
     const credentials = Credentials.emailPassword(email, password);
     try {
       const authenticatedUser = await app.logIn(credentials);
+      console.log("Authenticated User:", authenticatedUser);
       setUser(authenticatedUser);
       return authenticatedUser;
     } catch (error) {
@@ -51,9 +52,20 @@ export const UserProvider = ({ children }) => {
     }
   };
 
+  const resetPassword = async (email, oldPassword, newPassword) => {
+    if (!app.currentUser) throw new Error("User is not logged in");
+    try {
+      await app.currentUser.changePassword(oldPassword, newPassword);
+      return true;
+    } catch (error) {
+      throw error;
+    }
+  };
+  
+
   return (
     <UserContext.Provider
-      value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser }}
+      value={{ user, setUser, fetchUser, emailPasswordLogin, emailPasswordSignup, logOutUser, resetPassword }}
     >
       {children}
     </UserContext.Provider>

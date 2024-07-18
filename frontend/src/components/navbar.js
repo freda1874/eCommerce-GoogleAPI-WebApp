@@ -133,7 +133,14 @@ import { Popover, Typography, Button } from "@mui/material";
 import { UserContext } from "../contexts/user";
 import shopfulLogo from "./pictures/shopful.png";
 
+import { useNavigate } from "react-router-dom";
+
+import maplogo from "./pictures/maplogo.png";
+
+
 const Navbar = () => {
+  
+  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState(null);
   const { user, logOutUser } = useContext(UserContext);
 
@@ -148,6 +155,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     await logOutUser();
     handleClose();
+    navigate("/");
   };
 
   const open = Boolean(anchorEl);
@@ -157,6 +165,12 @@ const Navbar = () => {
     <header style={headerStyle}>
       <div style={containerStyle}>
         <Link to="/">
+          <img
+            className="map-logo"
+            src={maplogo}
+            alt="maplogo"
+            style={maplogoStyle}
+            />
           <img
             className="logo-image"
             src={shopfulLogo}
@@ -212,6 +226,18 @@ const Navbar = () => {
                   >
                     Logout
                   </Button>
+                <div style={{ marginTop: "1rem" }}>
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    component={Link}
+                    to="/password-reset"
+                    style={{ marginBottom: "1rem", color: "white" }}
+                  >
+                    Password Reset
+                  </Button>
+                </div>
+
                 </>
               ) : (
                 <>
@@ -237,7 +263,7 @@ const Navbar = () => {
 };
 
 const headerStyle = {
-  backgroundColor: "#f8f8f8",
+  backgroundColor: "#A9F2D0",
   padding: "15px 0",
   color: "#333",
   boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)"
@@ -255,6 +281,11 @@ const logoStyle = {
   width: "100px",
   height: "auto"
 };
+
+const maplogoStyle = {
+  width: "40px",
+  height: "auto",
+}
 
 const navStyle = {
   display: "flex",

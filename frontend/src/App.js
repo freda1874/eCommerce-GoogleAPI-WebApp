@@ -8,8 +8,12 @@ import Blog from './Pages/Blog';
 import AboutUs from './Pages/AboutUs';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
+
 import SavedItems from './Pages/SavedItems';
 import ItemDetails from './components/itemDetails';
+
+import PasswordReset from "./Pages/PasswordReset";
+
 import { UserProvider } from './contexts/user';
 
 function App() {
@@ -29,6 +33,10 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/saved-items" element={<SavedItems />} />
               <Route path="/item-details" element={<ItemDetails itemModel={{ _id: 'sample-id', name: 'Sample Item' }} />} />
+
+              <Route path="/signup" element={<Signup />} />  {}
+              <Route path="/password-reset" element={<PasswordReset />} />
+
             </Routes>
           </div>
         </BrowserRouter>
