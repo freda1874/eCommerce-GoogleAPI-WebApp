@@ -21,7 +21,6 @@ export const UserProvider = ({ children }) => {
     }
   };
 
-  
   const emailPasswordSignup = async (email, password) => {
     try {
       await app.emailPasswordAuth.registerUser({ email, password });
