@@ -79,7 +79,7 @@ const searchDB = async (req, res) => {
         const dateTimeLimit = new Date();
         dateTimeLimit.setMinutes(dateTimeLimit.getMinutes() - parseInt(dt));
 
-        const items = await Item.find({
+        let items = await Item.find({
             name: { $regex: new RegExp(str, 'i') },
             updatedAt: { $gte: dateTimeLimit.toISOString() },
             'path.location': {

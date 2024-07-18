@@ -51,13 +51,18 @@ const Home = () => {
         <tbody>
             {items &&
             items.reduce((rows, item, index) => {
+                if (rows[rows.length - 1].length === 4) {
+                  rows.push([]);
+                }
                 rows[rows.length - 1].push(
-                <tr key={item.id}>
-                <ItemDetails itemModel={item} />
-                </tr>
+                  <td key={item.id}><ItemDetails itemModel={item} /></td>
                 );
                 return rows;
-            }, []) }
+            }, [[]]).map((row, index) => (
+                <tr key={index}>
+                  {row}
+                </tr>
+            ))}
         </tbody>
       </table>
       </div>

@@ -124,13 +124,12 @@
 // export default Navbar;
 
 
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { RxPerson } from "react-icons/rx";
 import { BsSearch } from "react-icons/bs";
 import { Popover, Typography, Button } from "@mui/material";
-import { useState } from "react";
 import { UserContext } from "../contexts/user";
 import shopfulLogo from "./pictures/shopful.png";
 
@@ -237,7 +236,6 @@ const Navbar = () => {
   );
 };
 
-
 const headerStyle = {
   backgroundColor: "#f8f8f8",
   padding: "15px 0",
@@ -306,13 +304,13 @@ const searchIconStyle = {
   marginTop: "4px" 
 };
 
-
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/shop", label: "Shop" },
   { to: "/aboutus", label: "About Us" },
   { to: "/blog", label: "Blog" },
-  { to: "/contact", label: "Contact Us" }
+  { to: "/contact", label: "Contact Us" },
+  { to: "/saved-items", label: "Saved Items" } 
 ];
 
 export default Navbar;
