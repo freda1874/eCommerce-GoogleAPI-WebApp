@@ -9,6 +9,7 @@ import Blog from './Pages/Blog';
 import AboutUs from './Pages/AboutUs';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
+import PasswordReset from "./Pages/PasswordReset";
 import { UserProvider } from './contexts/user';
 
 
@@ -27,6 +28,7 @@ function App() {
               <Route path="/aboutus" element={<AboutUs />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />  {}
+              <Route path="/password-reset" element={<PasswordReset />} />
             </Routes>
           </div>
         </BrowserRouter>

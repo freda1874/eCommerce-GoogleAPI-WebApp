@@ -114,7 +114,9 @@ const timeout = require('connect-timeout');
 const itemDBRoutes = require('./routes/items.js');
 const itemViewRoutes = require('./routes/view.js');
 //const websiteDBRoutes = require('./routes/websites.js');
-
+const jwt = require('jsonwebtoken');// added
+const bcrypt = require('bcrypt');// added
+const User = require('./models/user');// added
 
 const cors = require('cors');
 const axios = require('axios');
@@ -188,6 +190,34 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
     console.error('Database connection error:', error);
     process.exit(1);
   });
+
+
+//added
+app.post('/reset-password', async (req, res) => {
+  const { email, oldPassword, newPassword } = req.body;
+
+  try {
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    const passwordMatch = await bcrypt.compare(oldPassword, user.password);
+    if (!passwordMatch) {
+      return res.status(401).json({ error: 'Invalid old password' });
+    }
+
+    const hashedPassword = await bcrypt.hash(newPassword, 10); 
+    user.password = hashedPassword;
+    await user.save();
+
+    res.json({ message: 'Password reset successful' });
+  } catch (error) {
+    console.error('Password reset failed:', error);
+    res.status(500).json({ error: 'Password reset failed' });
+  }
+});
 
 
 function availableRoutesString() {
