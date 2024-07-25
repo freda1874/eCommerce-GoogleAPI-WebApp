@@ -13,10 +13,68 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  /*background: #f1f1f1;*/
   margin: 0;
   font-family: "yuhh";
+  background: linear-gradient(200deg, #2bffc6,#FFFFFF);
 }
+ul li{
+    position: absolute;
+    /*border: 1px #fff;*/
+    background-color: #0d2b3e;
+    width: 20px;
+    height: 25px;
+    list-style: none;
+    opacity: 0;
+    border-radius: 0;
+}
+.bag li{
+    bottom: 0;
+    left: 15vw;
+    animation: bag 10s linear infinite;
+}
+.bag li:nth-child(2){
+    left: 35vw;
+    animation-delay: 2s;
+}
+.bag li:nth-child(3){
+    left: 55vw;
+    animation-delay: 6s;
+}
+.bag li:nth-child(4){
+    left: 75vw;
+    animation-delay: 4s;
+}
+.bag li:nth-child(5){
+    left: 90vw;
+    animation-delay: 8s;
+}
+
+@keyframes bag {
+    0%{
+        transform: scale(0) rotateY(0deg);
+        opacity: 1;
+        bottom: 0;
+        border-radius: 0;
+    }
+    100%{
+        transform: scale(5) rotateY(1000deg);
+        opacity: 0;
+        bottom: 90vh;
+        border-radius: 0;
+    }
+}
+.rectangle {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7px;
+    height: 3px;
+    background-color: #2bffc6;
+}
+
+
 header {
   height: 20%; 
 }
