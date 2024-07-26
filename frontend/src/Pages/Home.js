@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Home = () => {
   const [items, setItems] = useState(null);
-  var count = 0;
   // set a defualt search radius
   const searchRadius = 30;
 
@@ -64,16 +63,6 @@ const Home = () => {
                 </tr>
             ))}
         </tbody>
-      </table>
-              items.reduce((rows, item, index) => {
-                rows[rows.length - 1].push(
-                  <tr key={item.id}>
-                    <ItemDetails itemModel={item} />
-                  </tr>
-                );
-                return rows;
-              }, [])}
-          </tbody>
         </table>
       </div>
     </div>
