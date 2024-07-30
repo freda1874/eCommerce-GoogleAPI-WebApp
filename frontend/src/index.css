@@ -64,14 +64,16 @@ ul li{
         border-radius: 0;
     }
 }
-.rectangle {
+.rope {
     position: absolute;
-    top: 0px;
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 7px;
-    height: 3px;
-    background-color: #2bffc6;
+    width: 16px;
+    height: 10px;
+    border: 1px solid #0d2b3e;
+    border-radius: 50% 50% 0 0/100% 100% 0 0 ;
+    border-bottom: none;
 }
 
 
