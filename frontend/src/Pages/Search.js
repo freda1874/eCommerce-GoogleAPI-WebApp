@@ -4,11 +4,6 @@ import SearchBar from '../components/SearchBar.js';
 import ItemDetails from '../components/itemDetails';
 import 'bootstrap/dist/css/bootstrap.css';
 import './SavedItems.css';
-import { useEffect, useState, useCallback } from "react";
-import { useLocation } from "react-router-dom";
-import SearchBar from "../components/SearchBar.js";
-import ItemDetails from "../components/itemDetails";
-import "bootstrap/dist/css/bootstrap.css";
 
 const Search = () => {
     const [items, setItems] = useState([]);
@@ -17,7 +12,6 @@ const Search = () => {
     const [loading, setLoading] = useState(false);
 
     const fetchItems = useCallback(async () => {
-
         if (state) {
             const { search, rad } = state;
             const response = await fetch(`/db/items/searchDB?str=${search}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
@@ -29,38 +23,34 @@ const Search = () => {
     }, [state]);
 
     useEffect(() => {
+        fetchItems();
         const interval = setInterval(fetchItems, 300000);
-        fetchItems();
         return () => clearInterval(interval);
     }, [fetchItems]);
 
-        setLoading(true);
-        var item = state.search;
-        console.log(item);
-        var rad = state.rad;
-        const response = await fetch(`/db/items/searchDB?str=${item}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
-        const json = await response.json();
-        if (response.ok) {
-            setItems(json);
+        useEffect(() => {
+            if (state) {
+                setLoading(true);
+                const item = state.search;
+                console.log(item);
+                const rad = state.rad;
+                const fetchData = async () => {
+                    const response = await fetch(`/db/items/searchDB?str=${item}&dt=17280&lat=43.7136378&lon=-79.3655763&rad=${rad}`);
+                    const json = await response.json();
+                    if (response.ok) {
+                        setItems(json);
+                    }
+                    setLoading(false);
+                };
+                fetchData();
+            }
+        }, [state]);
 
-        }
-        setLoading(false);
-    }, [state.search, state.rad]);
-
-    useEffect(() => {
-        console.log("Search.js - Called from useEffect");
-        fetchItems();
-        const interval = setInterval(fetchItems, 200000);
-
-
-
-        return () => clearInterval(interval);
-    }, [fetchItems]);
     return (
         <div className="search-page container">
             <SearchBar />
             <div className="row items-container">
-                {items && items.map((item) => (
+                {items && items.map((item) => ( 
                     <div key={item._id} className="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-stretch">
                         <ItemDetails itemModel={item} />
                     </div>
