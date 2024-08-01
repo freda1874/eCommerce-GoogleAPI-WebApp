@@ -60,16 +60,16 @@ const { isString } = require('mathjs');
 function scrapeTest() {
 
     console.log("scrapeTest()");
-    
+
     console.log("scrapeTest() Done");
     //logger.loggerPost("scrapeTest() Done");
 
-    return; 
+    return;
 }
 
 function getResults(params) {
     getJson(params, async (results) => {
-        console.log(results); 
+        console.log(results);
         try {
 
             if (!results.local_results) {
@@ -83,17 +83,11 @@ function getResults(params) {
 
                 var item = results.local_results[i];
 
-                //console.log("searchbylocation_SERPAPI() item.title = %s",item.title);
                 var image_results = await scrapeImage(item.title);
                 console.log("searchbylocation_SERPAPI() scrapeImage()RESULTS *****************************************");
                 console.log(image_results);
 
                 var img = '';
-                //if(item.thumbnail)
-                //    img = item.thumbnail;
-
-                //if(item.images)
-                //    img = item.images[0];
 
                 if (image_results.length)
                     img = image_results[0].url;
@@ -406,63 +400,6 @@ process.on('message', rq => {
         });
 });
 
-/**
- * @function saveItems
- * @brief Saves scraped items to the database.
- * 
- * This asynchronous function takes an object containing scraped items, typically obtained
- * from an image search, and iterates through each item. For each item, it extracts relevant
- * information such as name, price, image URL, source link, and location details. It then
- * constructs a new database product object and saves it to the database using the
- * itemController.createItem function. The function operates asynchronously and logs any
- * errors that may occur during the process.
- * 
- * @param {Object} items - An object containing information about scraped items, including
- *                        an array of scraped images, location details, search radius, store
- *                        name, and search item.
- * 
- * @throws {Error} Throws an error if there is an issue with creating or saving the database
- *                product using itemController.createItem.
- * 
- * @see itemController.createItem
- * 
- * @example
- * // Example usage:
- * const scrapedItems = {
- *   scraped: [
- *     { title: 'Product 1', price: 19.99, url: 'https://example.com/image1.jpg', source: 'https://example.com/product1', ... },
- *     { title: 'Product 2', price: 29.99, url: 'https://example.com/image2.jpg', source: 'https://example.com/product2', ... },
- *     // ...
- *   ],
- *   geometry: { location: { lat: 37.7749, lon: -122.4194 } },
- *   radius: 5000,
- *   name: 'Store Name',
- *   item: 'searched item'
- * };
- * await saveItems(scrapedItems);
- * 
- * Example entry: 
-    {
-    url: 'https://i.ebayimg.com/images/g/3dQAAOSwOwdkb6wH/s-l1200.webp',
-    source: 'https://www.ebay.com/itm/266271615512',
-    title: 'Diamondbacks Lids New Era X Mlb Off White Pinstripe Fitted Hat Size 8 | eBay',
-    price: '42.07'
-    }
-    Created item: {
-    name: 'Diamondbacks Lids New Era X Mlb Off White Pinstripe Fitted Hat Size 8 | eBay',
-    price: '42.07',
-    image: 'https://i.ebayimg.com/images/g/3dQAAOSwOwdkb6wH/s-l1200.webp',
-    link: 'https://www.ebay.com/itm/266271615512',
-    path: { location: { lon: -111.9020506, lat: 33.4336115 }, store: 'Lids' },
-    method: 'google',
-    _id: new ObjectId("65b586a58776309e7e12e3e7"),
-    createdAt: 2024-01-27T22:41:41.379Z,
-    updatedAt: 2024-01-27T22:41:41.379Z,
-    __v: 0
-    }
- * 
- * 
- */
 async function saveItems(items) {
     console.log("saveItems() *** saveItems *** ");
 
@@ -584,13 +521,7 @@ async function scrapeImage(q) {
         if (results) {
             console.log('scrapeImage() results ******************');
             console.log(results);
-            // var s = JSON.stringify(results);
-            // logger.loggerPost('scrapeImage() results -> ${s}');
 
-            // // Process and enhance the scraped results, including extracting prices
-            // for (var i = 0; i < results.length; i++) {
-            //     results[i].price = await getPrice(results[i].source);
-            // }
 
         } else {
             console.log("scrapeImage() - Unable to scrape an image!");
@@ -682,7 +613,7 @@ async function getPrice(url) {
 //   console.log('results', results);
 
 // })();
- 
+
 function loadScrapeData(latitude, longitude) {
 
     // test data
@@ -737,7 +668,7 @@ function loadScrapeData(latitude, longitude) {
         //dbProducts.push(newDBProduct);
     }
 
-} 
+}
 
 function getScrapeData(latitude, longitude) {
 
@@ -769,7 +700,7 @@ function getScrapeData(latitude, longitude) {
             console.log(error);
         })
 }
- 
+
 
 const goScrape = async (req, res) => {
 
@@ -792,7 +723,7 @@ const goScrape = async (req, res) => {
 
     return;
 }
- 
+
 
 /**
  * @brief Saves scraped data using the ScrapeSerpAPI.

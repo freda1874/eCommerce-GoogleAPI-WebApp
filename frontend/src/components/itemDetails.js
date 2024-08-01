@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { UserContext } from '../contexts/user';
 import { saveItem } from '../services/api';
-import './itemDetails.css'; 
+import './itemDetails.css';
 
 const ItemDetails = ({ itemModel }) => {
   const { user } = useContext(UserContext);
@@ -32,12 +32,18 @@ const ItemDetails = ({ itemModel }) => {
       };
       console.log('Saving item:', itemData);  // Log itemData
       const response = await saveItem(itemData);
-      console.log('Save item response:', response); 
+      console.log('Save item response:', response);
       alert('Item saved successfully');
     } catch (error) {
       console.error('Error saving item', error.response ? error.response.data : error.message);
       alert('Failed to save item: ' + (error.response ? error.response.data.error : error.message));
     }
+  };
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${month}-${day}`;
   };
 
   return (
@@ -46,14 +52,16 @@ const ItemDetails = ({ itemModel }) => {
         <div className="image-container">
           <img src={itemModel.image} alt={itemModel.name} className="item-image" />
         </div>
-        <div className="item-info">
-          <h4 className="item-title">{itemModel.name ? itemModel.name : "No name available"}</h4>
-        </div>
       </a>
+      <div className="item-info">
+        <h4 className="item-title">{itemModel.name ? itemModel.name : "No name available"}</h4>
+        <p className="item-date">Retrieved At: {formatDate(itemModel.createdAt)}</p>
+      </div>
       <div className="item-buttons">
         <button onClick={handleSave}>Save</button>
       </div>
     </div>
+
   );
 };
 
