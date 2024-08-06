@@ -53,14 +53,24 @@ export const UserProvider = ({ children }) => {
   };
 
   const resetPassword = async (email, oldPassword, newPassword) => {
-    if (!app.currentUser) throw new Error("User is not logged in");
     try {
-      await app.currentUser.changePassword(oldPassword, newPassword);
-      return true;
+      const response = await fetch('/reset-password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, oldPassword, newPassword })
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error);
+      }
+  
+      return await response.json();
     } catch (error) {
       throw error;
     }
   };
+  
   
 
   return (

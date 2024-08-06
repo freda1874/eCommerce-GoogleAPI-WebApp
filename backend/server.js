@@ -181,9 +181,11 @@ app.post('/reset-password', async (req, res) => {
   const { email, oldPassword, newPassword } = req.body;
 
   try {
+    console.log('Received password reset request for email:', email); // debugging information
     const user = await User.findOne({ email });
 
     if (!user) {
+      console.log('User not found in database'); // debugging information
       return res.status(404).json({ error: 'User not found' });
     }
 
@@ -202,7 +204,7 @@ app.post('/reset-password', async (req, res) => {
     res.status(500).json({ error: 'Password reset failed' });
   }
 });
-
+// module.exports = User;// add
 
 function availableRoutesString() {
   return app._router.stack
@@ -210,11 +212,3 @@ function availableRoutesString() {
     .map(r => Object.keys(r.route.methods)[0].toUpperCase().padEnd(7) + r.route.path)
     .join("\n")
 }
-
-
-
-
-
-
-
-
