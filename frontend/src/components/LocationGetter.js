@@ -1,74 +1,56 @@
-import { useState } from 'react';
-import Geocode from "react-geocode";
+const APIkey = "55e23d8bf8da4c8db1b74a25abf4469b";
 
-Geocode.setApiKey("AIzaSyBxONdCYn7fhUT-0aifzRBWkHZld9NRbDM");
-Geocode.setLanguage("en");
-Geocode.setRegion("ca");
-
-//function that gets the users location and returns their latitude, longitude, addy
 const LocationGetter = () => {
-
-    // Set default Toronto coordinates if unable to get location.
-    let latitude = 43.6479;
-    let longitude = -79.3808;
-    let addy = "Toronto Canada";
-
-    console.log("Location Getter - Requesting Location");
-    // Check if geolocation is supported by the browser
+  return new Promise((resolve, reject) => {
     if (navigator.geolocation) {
-        console.log("Location Getter - Geolocation gotten Location");
-      // Get the current position
       navigator.geolocation.getCurrentPosition(
         (position) => {
-          latitude = position.coords.latitude;
-          longitude = position.coords.longitude;
-          console.log(latitude);
-          console.log(longitude);
-          Geocode.fromLatLng(position.coords.latitude, position.coords.longitude).then(
-            (response) => {
-              let city, state, country;
-              for (let i = 0; i < response.results[0].address_components.length; i++) {
-                for (let j = 0; j < response.results[0].address_components[i].types.length; j++) {
-                  switch (response.results[0].address_components[i].types[j]) {
-                    case "locality":
-                      city = response.results[0].address_components[i].long_name;
-
-                      break;
-                    case "administrative_area_level_1":
-                      state = response.results[0].address_components[i].long_name;
-
-                      break;
-                    case "country":
-
-                      country = response.results[0].address_components[i].long_name;
-
-                      break;
-                    default: //comes through here like 40 times because there is a big response
-                      //console.log('1');
-                      break;
-                  }
-
-                }
-              }
-                  console.log('Location Getter - City:', city);
-                  console.log('Location Getter - State:', state);
-                  console.log('Location Getter - Country:', country);
-                  addy = "Location Getter - " + city + ", " + state + " " + country;
-            },
-            (error) => {
-                console.log("Location Getter - Error setting");
-              console.error(error);
-            }
-          );
+          const { latitude, longitude } = position.coords;
+          getLocationInfo(latitude, longitude)
+            .then((addy) => {
+              resolve({ latitude, longitude, addy });
+            })
+            .catch((error) => {
+              reject(error);
+            });
         },
         (error) => {
-          console.log(error.message);
+          reject(error);
         }
       );
     } else {
-        console.log('Location Getter - Geolocation is not supported by this browser.');
+      reject(new Error("Geolocation is not supported by this browser."));
     }
-    return { latitude, longitude, addy };
+  });
+};
+
+const getLocationInfo = (latitude, longitude) => {
+  return new Promise((resolve, reject) => {
+    const url = `https://api.opencagedata.com/geocode/v1/json?q=${latitude},${longitude}&key=${APIkey}`;
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.status.code === 200) {
+          const { city, state, country } = getAddressComponents(data.results[0]);
+          resolve(`${city || "Ottawa"}, ${state || "Ontario"} ${country || "Canada"}`);
+        } else {
+          reject(new Error("Reverse geolocation request failed."));
+        }
+      })
+      .catch((error) => reject(error));
+  });
+};
+
+const getAddressComponents = (result) => {
+  let city, state, country;
+  if (result && result.address_components) {
+    result.address_components.forEach((component) => {
+      if (component.types.includes("locality")) city = component.long_name;
+      if (component.types.includes("administrative_area_level_1")) state = component.long_name;
+      if (component.types.includes("country")) country = component.long_name;
+    });
+  }
+  return { city, state, country };
 };
 
 export default LocationGetter;
