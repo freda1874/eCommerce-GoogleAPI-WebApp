@@ -24,26 +24,22 @@ const SavedItems = () => {
   }, [user]);
 
   const handleCategoryChange = async (e) => {
-    setCategory(e.target.value);
-    if (e.target.value) {
+    const selectedCategory = e.target.value;
+    setCategory(selectedCategory);
+
+    if (selectedCategory) {
       try {
-        const response = await axios.get(`/api/savedItems/user/${user.id}/category/${e.target.value}`);
+        const response = await axios.get(`/api/savedItems/user/${user.id}/category/${selectedCategory}`);
         setSavedItems(response.data);
       } catch (error) {
         console.error('Error retrieving items by category:', error);
       }
     } else {
-      const fetchSavedItems = async () => {
-        try {
-          const response = await axios.get(`/api/savedItems/user/${user.id}`);
-          setSavedItems(response.data);
-        } catch (error) {
-          console.error('Error retrieving saved items:', error);
-        }
-      };
-
-      if (user) {
-        fetchSavedItems();
+      try {
+        const response = await axios.get(`/api/savedItems/user/${user.id}`);
+        setSavedItems(response.data);
+      } catch (error) {
+        console.error('Error retrieving saved items:', error);
       }
     }
   };
@@ -54,16 +50,6 @@ const SavedItems = () => {
       setSavedItems(savedItems.filter(item => item.itemId !== itemId));
     } catch (error) {
       console.error('Error deleting item:', error);
-    }
-  };
-
-  const handleCategorize = async (itemId, category) => {
-    try {
-      const response = await axios.patch(`/api/savedItems/categorize/${itemId}`, { category });
-      const updatedItem = response.data;
-      setSavedItems(savedItems.map(item => item.itemId === itemId ? updatedItem : item));
-    } catch (error) {
-      console.error('Error categorizing item:', error);
     }
   };
 
@@ -78,13 +64,15 @@ const SavedItems = () => {
           <option value="shirts">Shirts</option>
           <option value="jackets">Jackets</option>
           <option value="shoes">Shoes</option>
-          <option value="pants">Pants</option> {}
+          <option value="pants">Pants</option>
+          <option value="dress">Dress</option>
+          <option value="accessories">Accessories</option>
         </select>
       </div>
       <div className="items-container">
         {savedItems.length > 0 ? (
           savedItems.map((item) => (
-            <div key={item._id} className="item-card">
+            <div key={item.itemId} className="item-card">
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <div className="image-container">
                   <img src={item.image} alt={item.title} className="item-image" />
@@ -95,7 +83,6 @@ const SavedItems = () => {
               </a>
               <div className="item-buttons">
                 <button onClick={() => handleDelete(item.itemId)}>Delete</button>
-                <button onClick={() => handleCategorize(item.itemId, 'New Category')}>Categorize</button>
               </div>
             </div>
           ))
