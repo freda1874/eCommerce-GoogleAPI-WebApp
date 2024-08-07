@@ -36,14 +36,36 @@ const PasswordReset = () => {
       toast.error("User is not logged in or user profile is incomplete.");
       return;
     }
+
+    console.log('Submitting password reset for email:', user.profile.email); // debugging information
+
+
     try {
-      await resetPassword(user.email, form.oldPassword, form.newPassword);
+      // using fetch send request to the backend
+      const response = await fetch('http://localhost:4000/reset-password', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          email: user.profile.email,
+          oldPassword: form.oldPassword,
+          newPassword: form.newPassword
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Password reset failed');
+      }
+
+      const data = await response.json();
       toast.success("Password reset successful！");
       navigate("/");
     } catch (error) {
       toast.error("Password reset failed：" + error.message);
     }
   };
+  
 
   return (
     <>
