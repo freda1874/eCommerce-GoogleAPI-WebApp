@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getSavedItems, deleteItem, categorizeItem } from '../services/api';
+import { getSavedItems, deleteItem } from '../services/api';
 
 const SavedItemsList = ({ userId }) => {
   const [items, setItems] = useState([]);
@@ -26,15 +26,6 @@ const SavedItemsList = ({ userId }) => {
     }
   };
 
-  const handleCategorize = async (itemId, category) => {
-    try {
-      const updatedItem = await categorizeItem(itemId, category);
-      setItems(items.map(item => (item.itemId === itemId ? updatedItem : item)));
-    } catch (error) {
-      console.error('Error categorizing item', error);
-    }
-  };
-
   return (
     <div>
       <h2>Saved Items</h2>
@@ -43,7 +34,6 @@ const SavedItemsList = ({ userId }) => {
           <li key={item.itemId}>
             {item.title} - {item.category || 'No Category'}
             <button onClick={() => handleDelete(item.itemId)}>Delete</button>
-            <button onClick={() => handleCategorize(item.itemId, 'New Category')}>Categorize</button>
           </li>
         ))}
       </ul>

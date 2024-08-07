@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const savedItemSchema = new mongoose.Schema({
+const SavedItemSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true
@@ -15,7 +15,8 @@ const savedItemSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    required: true
+    required: true,
+    default: 'uncategorized'
   },
   image: {
     type: String,
@@ -31,4 +32,5 @@ const savedItemSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('SavedItem', savedItemSchema);
+module.exports = mongoose.model('SavedItem', SavedItemSchema);
+

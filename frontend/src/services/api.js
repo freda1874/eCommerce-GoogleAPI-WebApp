@@ -39,12 +39,3 @@ export const deleteItem = async (itemId) => {
   }
 };
 
-export const categorizeItem = async (itemId, category) => {
-  try {
-    const response = await axios.patch(`/api/savedItems/categorize/${itemId}`, { category });
-    return response.data;
-  } catch (error) {
-    console.error('Error categorizing item:', error);
-    throw error;
-  }
-};
