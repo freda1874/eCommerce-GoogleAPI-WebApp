@@ -6792,3 +6792,20 @@
 {"level":"info","message":"searchbylocation(dress,45.3410816,-75.7497856,30)","service":"shopful-logger","timestamp":"2024-08-01 13:13:42"}
 {"level":"info","message":"searchbylocation_SERPAPI(dress,45.3410816,-75.7497856,30)","service":"shopful-logger","timestamp":"2024-08-01 13:13:42"}
 {"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-01 13:13:43"}
+{"level":"info","message":"searchbylocation(dinner dress,45.3410816,-75.7497856,15)","service":"shopful-logger","timestamp":"2024-08-07 20:52:17"}
+{"level":"info","message":"searchbylocation_SERPAPI(dinner dress,45.3410816,-75.7497856,15)","service":"shopful-logger","timestamp":"2024-08-07 20:52:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:17"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:27"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:33"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:39"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:44"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:49"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:54"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Rachel Comey Fresco Dress - Blue | Garmentory\",\"price\":0,\"image\":\"https://images.garmentory.com/images/11160088/medium/Baldacci-Dress-20240718021657.jpg?1721269019\",\"link\":\"https://www.garmentory.com/sale/rachel-comey/women-dresses-mid/1438173-fresco-dress-blue\",\"path\":{\"location\":{\"lat\":45.4220299,\"lon\":-75.6951202},\"radius\":\"15\",\"store\":\"Olly Fresco's\",\"search\":\"dinner dress\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"saveItems() -> {\"name\":\"Rachel Comey Fresco Dress - Blue | Garmentory\",\"price\":0,\"image\":\"https://images.garmentory.com/images/11160140/medium/Prim-Dress-20240718021757.jpg?1721269079\",\"link\":\"https://www.garmentory.com/sale/rachel-comey/women-dresses-mid/1438173-fresco-dress-blue\",\"path\":{\"location\":{\"lat\":45.4220299,\"lon\":-75.6951202},\"radius\":\"15\",\"store\":\"Olly Fresco's\",\"search\":\"dinner dress\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"saveItems() -> price=NAN; default -> price=0.00","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"saveItems() -> {\"name\":\"OLLY FRESCO'S, Montreal - Ville-Marie - Updated 2024 Restaurant Reviews,  Photos & Phone Number - Tripadvisor\",\"price\":0,\"image\":\"https://media-cdn.tripadvisor.com/media/photo-s/16/b1/23/46/20190306-100936-largejpg.jpg\",\"link\":\"https://www.tripadvisor.ca/Restaurant_Review-g155032-d10182802-Reviews-Olly_Fresco_s-Montreal_Quebec.html\",\"path\":{\"location\":{\"lat\":45.4220299,\"lon\":-75.6951202},\"radius\":\"15\",\"store\":\"Olly Fresco's\",\"search\":\"dinner dress\"},\"method\":\"Google API Places\"}","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:52:59"}
+{"level":"info","message":"scrapeImage(${q})","service":"shopful-logger","timestamp":"2024-08-07 20:53:05"}
