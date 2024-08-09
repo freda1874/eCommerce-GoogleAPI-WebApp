@@ -7,11 +7,17 @@ The app dynamically scrapes and displays product listings from nearby shops base
 
 ## **Features**
 
-- **Real-Time Product Listings**: The app scrapes product data from local shops using the Google API, ensuring users have access to the most up-to-date information.
-- **Geolocation-Based Results**: By integrating with OpenCageData, the app continuously updates the user's geolocation every 5 minutes to provide relevant and localized product suggestions.
-- **Dynamic User Input Processing**: The app dynamically loads and presents the most relevant products according to user input, making it easy to find desired items quickly.
-- **Personalized Shopping Experience**: Combining location-based data with user preferences, the app ensures a tailored shopping experience that meets the specific needs of each user.
 
+
+
+- **Real-Time Product Listings**: The app scrapes product data from local shops using the Google API, ensuring users have access to the most up-to-date information.
+![eCom2](https://github.com/user-attachments/assets/9348766d-fa6b-4184-a604-02451bde522b)
+- **Geolocation-Based Results**: By integrating with OpenCageData, the app continuously updates the user's geolocation every 5 minutes to provide relevant and localized product suggestions.
+- ![eCom1](https://github.com/user-attachments/assets/c834d1b7-ebdc-4ae7-8daf-306cae5e64a2)
+- **Dynamic User Input Processing**: The app dynamically loads and presents the most relevant products according to user input, making it easy to find desired items quickly.
+- ![eCom3](https://github.com/user-attachments/assets/3d28f723-091e-429d-a73a-9d37e2cccb8f)
+- **Personalized Shopping Experience**: Combining location-based data with user preferences, the app ensures a tailored shopping experience that meets the specific needs of each user.
+![eCom4](https://github.com/user-attachments/assets/9d8b305e-2265-4ac9-b67a-0620509ac9db)
 ## **Technologies Used**
 
 - **Frontend**:
@@ -32,10 +38,3 @@ This project is a group collaboration for the client **Shopful**.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## **Contact**
-
-For any inquiries, please contact the project team at **team@shopful.com**.
-
----
-
-This README gives a clear overview of the project and provides all the essential information for anyone looking to understand or contribute to the project.
