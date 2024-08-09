@@ -1,6 +1,6 @@
 const websiteController = require('./WebsiteElementsController.js');
 //const { search } = require('../routes/view.js');
-const {By, Key, Builder, until } = require('selenium-webdriver');
+const { By, Key, Builder, until } = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome')
 
 const chromeOptions = new chrome.Options();
@@ -11,15 +11,15 @@ chromeOptions.addArguments('--disable-popup-blocking');
 var websites = []
 
 
-const start = async (url, lon, lat, radius, store, input, method) =>{
+const start = async (url, lon, lat, radius, store, input, method) => {
 
     console.log("start")
 
-    
+
     // check if the local store's website url is in the list of scrappable websites
- 
+
     // get the website document that matches the url
-    
+
     const website = await websiteController.getWebsitesFromURL(url);
     // if the website was found in the db and can be scrapped
     if (website) {
@@ -147,7 +147,7 @@ const start = async (url, lon, lat, radius, store, input, method) =>{
                 dbProducts.push(newDBProduct);
             }
 
-            // return a list of products to be added to the database
+
             return dbProducts;
 
 
